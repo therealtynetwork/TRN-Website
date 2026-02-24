@@ -3,18 +3,23 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Apply & Get Verified",
-    description: "Submit your application. We review your track record, specialization, and market to ensure quality standards.",
+    title: "Apply & Verification",
+    description: "Submit your application. We evaluate track record, market presence, and alignment with network standards.",
   },
   {
     number: "02",
-    title: "Match & Introduce",
-    description: "When a referral opportunity arises, we match you with the right agent — warm handoff, not a cold directory.",
+    title: "Territory Assignment",
+    description: "Accepted operators are assigned to their territory. One operator per market. No overlap, no conflict.",
   },
   {
     number: "03",
-    title: "Close & Earn",
-    description: "The referral is tracked, the deal closes, you earn your fee — and the client relationship stays with you long-term.",
+    title: "Referral Activation",
+    description: "When opportunity arises, the network facilitates structured introductions — warm handoffs with full accountability.",
+  },
+  {
+    number: "04",
+    title: "Execution & Tracking",
+    description: "Deals are tracked through completion. Referral fees are settled directly. Relationships remain protected.",
   },
 ];
 
@@ -26,28 +31,28 @@ const HowItWorksSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-4">The Process</p>
+          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">Process</p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
             How It Works
           </h2>
         </motion.div>
 
-        <div className="space-y-8">
+        <div className="space-y-10">
           {steps.map((step, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.15, duration: 0.6 }}
-              className="flex gap-6 md:gap-10 items-start"
+              transition={{ delay: i * 0.12, duration: 0.6 }}
+              className="flex gap-8 md:gap-12 items-start"
             >
-              <span className="text-primary font-serif text-4xl md:text-5xl font-bold shrink-0 opacity-60">
+              <span className="text-primary font-serif text-3xl md:text-4xl font-bold shrink-0 opacity-50 w-12">
                 {step.number}
               </span>
-              <div className="border-l border-border pl-6 md:pl-10 pb-4">
+              <div className="border-l border-border/50 pl-8 md:pl-12 pb-2">
                 <h3 className="font-serif text-xl md:text-2xl font-semibold text-foreground mb-2">
                   {step.title}
                 </h3>

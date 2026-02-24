@@ -3,21 +3,21 @@ import founderImg from "@/assets/founder.jpg";
 
 const FounderSection = () => {
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="section-padding bg-secondary/30">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-16"
         >
-          <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-4">From the Founder</p>
+          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">Founder</p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-            Hear from Jake
+            Jake Engerer
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-5 gap-10 md:gap-14 items-center">
+        <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-center">
           {/* Photo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -36,31 +36,33 @@ const FounderSection = () => {
             </div>
           </motion.div>
 
-          {/* Story */}
+          {/* Bio */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="md:col-span-3 space-y-5"
+            className="md:col-span-3 space-y-6"
           >
             <p className="text-foreground leading-relaxed">
-              I'm Jake Engerer — 23, based in Malta, with over 200 deals closed across multiple markets.
-              I started in real estate young, and learned one painful lesson early:
+              200+ transactions closed across multiple markets. Based in Malta.
+              Operating internationally since the age of 20.
             </p>
-            <p className="text-primary font-serif text-xl md:text-2xl italic leading-snug">
-              "Every time a client moved to a market I didn't serve, I lost them. Not because I failed — 
-              because I had no one to send them to."
+            <p className="text-muted-foreground leading-relaxed">
+              TRN was built from a simple operational gap: there was no structured,
+              trust-verified infrastructure for cross-border real estate referrals.
+              Every time a client moved to a market I didn't serve, the relationship
+              — and the revenue — disappeared.
             </p>
-            <p className="text-foreground leading-relaxed">
-              So I built what I wish had existed: a vetted, global network of agents who operate with the same 
-              standards I hold. TRN isn't about collecting members — it's about connecting the right people, 
-              protecting trust, and making sure no opportunity is ever wasted.
+            <p className="text-muted-foreground leading-relaxed">
+              This network exists to eliminate that gap. Not through volume, but through
+              verified positioning, protected territories, and a shared standard of
+              professional conduct.
             </p>
-            <div className="pt-4 border-t border-border">
+            <div className="pt-6 border-t border-border/50">
               <p className="text-muted-foreground text-sm">
-                <strong className="text-foreground">Our standard:</strong> Every member is verified. Every referral is tracked. 
-                Every market is protected. This is how real estate should work globally.
+                <strong className="text-foreground">Principle:</strong> Every member verified.
+                Every referral tracked. Every territory protected.
               </p>
             </div>
           </motion.div>

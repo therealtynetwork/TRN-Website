@@ -8,46 +8,42 @@ import {
 
 const faqs = [
   {
-    q: "How is this different from a free Facebook group?",
-    a: "TRN is a vetted operating network — not a social media group. Every member is verified, referrals are structured with templates and tracking, and territories are protected. We have calls, partnerships, and accountability. Facebook groups have noise.",
+    q: "How is TRN different from a referral group or directory?",
+    a: "TRN is a structured operating network — not a social group or passive directory. Every member is verified, territories are protected, referrals are tracked, and there is a single operator per market. This is institutional infrastructure, not networking.",
   },
   {
     q: "How do referrals work?",
-    a: "When you have a client buying or selling in a market you don't serve, you submit a referral request. We match you with a verified agent in that market, facilitate a warm introduction, and track the deal to completion. You earn a referral fee, and the client stays in your network.",
+    a: "When a client is buying or selling in a market you don't serve, you submit a referral through the network. We match you with the verified operator in that territory, facilitate a structured introduction, and track the transaction to completion.",
   },
   {
     q: "Who is this for?",
-    a: "Ambitious real estate agents and small agency owners who want to grow beyond their local market. If you're serious about cross-border business, trusted connections, and operating at a higher standard — TRN is for you.",
+    a: "Established real estate operators with proven market presence and active deal flow. If you're serious about cross-border business, trusted infrastructure, and long-term positioning — TRN is built for you.",
   },
   {
-    q: "How do you verify members?",
-    a: "Every applicant goes through a review process. We check track record, specialization, licensing, online presence, and professional references. We reject applicants who don't meet our standards — that's what protects the network.",
+    q: "How are members verified?",
+    a: "Every applicant undergoes a review of their transaction history, market reputation, licensing, and professional standards. Applicants who don't meet our criteria are declined.",
   },
   {
-    q: "Do you take a commission?",
-    a: "TRN does not take a cut from your referral fees. The referral agreement is between you and the receiving agent. We provide the system, the matching, and the trust layer.",
+    q: "Does TRN take a commission?",
+    a: "No. Referral agreements are between operators. TRN provides the infrastructure, verification, and trust layer — not a commission structure.",
   },
   {
-    q: "Can I be the ambassador for my country?",
-    a: "Yes — territory leadership roles are available. Ambassadors lead their local market, help onboard new members, and get priority referral matching. Apply and mention your interest in the application.",
-  },
-  {
-    q: "How fast can I see value?",
-    a: "Many members receive their first referral introduction within the first month. But the real value compounds over time: relationships, trust, repeat referrals, and strategic partnerships.",
+    q: "Can I represent my territory?",
+    a: "Territory leadership positions are available. Designated operators lead their market, support onboarding, and receive priority referral allocation. Indicate your interest in your application.",
   },
 ];
 
 const FAQSection = () => {
   return (
-    <section id="faq" className="section-padding">
+    <section id="faq" className="section-padding bg-secondary/30">
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-14"
+          className="text-center mb-16"
         >
-          <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-4">FAQ</p>
+          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">Questions</p>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
             Frequently Asked Questions
           </h2>
