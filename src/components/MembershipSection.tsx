@@ -27,7 +27,7 @@ const MembershipSection = () => {
             Membership
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Limited positions per territory. Application required.
+            Open to qualified operators worldwide. Application required.
           </p>
         </motion.div>
 
@@ -37,7 +37,7 @@ const MembershipSection = () => {
           viewport={{ once: true }}
           className="text-center text-xs text-primary/70 tracking-[0.2em] uppercase mb-14"
         >
-          Territories close once filled — apply while your market is open
+          If you meet the standard, there's a place for you
         </motion.p>
 
         <motion.div
