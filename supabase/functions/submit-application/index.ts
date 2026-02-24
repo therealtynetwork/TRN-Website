@@ -45,8 +45,40 @@ Deno.serve(async (req) => {
       );
     }
 
-    // Log for email notification (can be replaced with actual email service later)
-    console.log(`New application from ${name} (${email}) - ${country}`);
+    // Send email notification via Resend
+    const resendKey = Deno.env.get("RESEND_API_KEY");
+    if (resendKey) {
+      try {
+        const emailRes = await fetch("https://api.resend.com/emails", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${resendKey}`,
+          },
+          body: JSON.stringify({
+            from: "TRN Applications <onboarding@resend.dev>",
+            to: ["jake@therealty-network.com"],
+            subject: `New TRN Application: ${name} (${country})`,
+            html: `
+              <h2>New Application Received</h2>
+              <p><strong>Name:</strong> ${name}</p>
+              <p><strong>Email:</strong> ${email}</p>
+              <p><strong>Country:</strong> ${country}</p>
+              <p><strong>Agency:</strong> ${agency || "N/A"}</p>
+              <p><strong>Niche:</strong> ${niche || "N/A"}</p>
+              <p><strong>Social:</strong> ${social || "N/A"}</p>
+              <p><strong>Why join:</strong> ${whyJoin}</p>
+              <p><strong>Biggest goal:</strong> ${biggestGoal}</p>
+            `,
+          }),
+        });
+        if (!emailRes.ok) {
+          console.error("Resend error:", await emailRes.text());
+        }
+      } catch (emailErr) {
+        console.error("Email send error:", emailErr);
+      }
+    }
 
     return new Response(
       JSON.stringify({ success: true }),
