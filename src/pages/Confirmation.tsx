@@ -21,10 +21,12 @@ const Confirmation = () => {
 
         <div className="space-y-4">
           <a
-            href="#"
+            href="https://calendly.com/jake-therealty-network/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block w-full bg-primary text-primary-foreground font-semibold py-3.5 rounded-lg hover:opacity-90 transition-opacity"
           >
-            Book an Intro Call
+            Book a Free Call with the Founder
           </a>
           <Link
             to="/"
