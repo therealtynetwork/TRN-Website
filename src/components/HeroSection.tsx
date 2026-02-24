@@ -48,9 +48,9 @@ const HeroSection = () => {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-foreground mb-6"
         >
-          Never Lose a Client
+          Close More Deals.
           <br />
-          <span className="text-gradient">to Geography</span>
+          <span className="text-gradient">Earn Beyond Your Market.</span>
         </motion.h1>
 
         {/* Subheadline */}
@@ -60,8 +60,8 @@ const HeroSection = () => {
           transition={{ delay: 0.6, duration: 0.7 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed font-sans"
         >
-          A vetted network of elite agents across 7+ countries. Refer with confidence,
-          earn on every deal, and keep your clients for life.
+          A vetted global referral network designed to protect relationships
+          and monetize cross-border opportunity.
         </motion.p>
 
         {/* CTAs */}
