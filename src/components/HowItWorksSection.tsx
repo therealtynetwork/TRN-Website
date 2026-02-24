@@ -3,23 +3,18 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Apply & Verification",
-    description: "Submit your application. We evaluate track record, market presence, and alignment with network standards.",
+    title: "Apply",
+    description: "Submit your application. We assess experience, market positioning, and alignment with network standards.",
   },
   {
     number: "02",
-    title: "Territory Assignment",
-    description: "Accepted operators are assigned to their territory. One operator per market. No overlap, no conflict.",
+    title: "Territory Alignment",
+    description: "Accepted operators are assigned to their designated territory. One operator per market.",
   },
   {
     number: "03",
-    title: "Referral Activation",
-    description: "When opportunity arises, the network facilitates structured introductions — warm handoffs with full accountability.",
-  },
-  {
-    number: "04",
-    title: "Execution & Tracking",
-    description: "Deals are tracked through completion. Referral fees are settled directly. Relationships remain protected.",
+    title: "Structured Introductions",
+    description: "When cross-border opportunity arises, the network facilitates warm, tracked introductions between operators.",
   },
 ];
 
@@ -39,27 +34,25 @@ const HowItWorksSection = () => {
           </h2>
         </motion.div>
 
-        <div className="space-y-10">
+        <div className="grid md:grid-cols-3 gap-12">
           {steps.map((step, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.12, duration: 0.6 }}
-              className="flex gap-8 md:gap-12 items-start"
+              transition={{ delay: i * 0.1, duration: 0.5 }}
+              className="text-center"
             >
-              <span className="text-primary font-serif text-3xl md:text-4xl font-bold shrink-0 opacity-50 w-12">
+              <span className="text-primary font-serif text-4xl md:text-5xl font-bold opacity-40 block mb-6">
                 {step.number}
               </span>
-              <div className="border-l border-border/50 pl-8 md:pl-12 pb-2">
-                <h3 className="font-serif text-xl md:text-2xl font-semibold text-foreground mb-2">
-                  {step.title}
-                </h3>
-                <p className="text-muted-foreground text-sm md:text-base leading-relaxed max-w-lg">
-                  {step.description}
-                </p>
-              </div>
+              <h3 className="font-serif text-xl font-semibold text-foreground mb-3">
+                {step.title}
+              </h3>
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs mx-auto">
+                {step.description}
+              </p>
             </motion.div>
           ))}
         </div>
