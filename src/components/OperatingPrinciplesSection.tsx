@@ -10,7 +10,7 @@ const principles = [
   {
     icon: Handshake,
     title: "Structured Introductions",
-    description: "Referrals follow a defined process — warm, tracked, and professionally managed from start to close.",
+    description: "Referrals follow a defined process. Warm, tracked, and professionally managed from start to close.",
   },
   {
     icon: TrendingUp,

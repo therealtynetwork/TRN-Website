@@ -13,7 +13,7 @@ const FooterSection = () => {
               TRN<span className="text-primary">.</span>
             </Link>
             <p className="text-muted-foreground text-sm mt-4 leading-relaxed max-w-xs">
-              The Realty Network — private global referral infrastructure for verified real estate operators.
+              The Realty Network. Private global referral infrastructure for verified real estate operators.
             </p>
           </div>
 

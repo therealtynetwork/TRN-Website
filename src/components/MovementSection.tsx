@@ -15,7 +15,7 @@ const pillars = [
   },
   {
     title: "Shared Belief",
-    description: "That trust deserves infrastructure — and relationships deserve continuity.",
+    description: "That trust deserves infrastructure, and relationships deserve continuity.",
   },
 ];
 

@@ -9,7 +9,7 @@ const standards = [
   {
     number: "02",
     title: "Active Deal Flow",
-    description: "Consistent pipeline and ongoing business activity — not speculative interest.",
+    description: "Consistent pipeline and ongoing business activity, not speculative interest.",
   },
   {
     number: "03",
