@@ -45,14 +45,24 @@ const HeroSection = () => {
           transition={{ delay: 0.9, duration: 0.6 }}
           className="flex flex-col items-center gap-5"
         >
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"
-          >
-            Apply for Membership
-          </a>
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"
+            >
+              Apply for Membership
+            </a>
+            <a
+              href="https://calendly.com/jake-therealty-network/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-border text-foreground font-semibold px-10 py-4 rounded-lg text-base hover:bg-secondary transition-colors"
+            >
+              Book a Call
+            </a>
+          </div>
           <p className="text-xs text-muted-foreground/50 tracking-[0.2em] uppercase">
             Built for long-term operators.
           </p>
