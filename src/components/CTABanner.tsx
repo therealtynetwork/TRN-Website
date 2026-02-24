@@ -24,10 +24,12 @@ const CTABanner = () => {
             Apply for Access
           </Link>
           <a
-            href="mailto:hello@therealty-network.com"
+            href="https://calendly.com/jake-therealty-network/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-border text-foreground font-semibold px-8 py-3.5 rounded-lg hover:bg-secondary transition-colors"
           >
-            Contact Us
+            Book a Free Call
           </a>
         </div>
       </motion.div>

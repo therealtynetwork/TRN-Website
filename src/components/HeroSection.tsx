@@ -64,10 +64,12 @@ const HeroSection = () => {
             Apply for Access
           </Link>
           <a
-            href="#how-it-works"
+            href="https://calendly.com/jake-therealty-network/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-border text-foreground font-semibold px-8 py-3.5 rounded-lg text-base hover:bg-secondary transition-colors w-full sm:w-auto"
           >
-            See How It Works
+            Book a Free Call
           </a>
         </motion.div>
       </div>
