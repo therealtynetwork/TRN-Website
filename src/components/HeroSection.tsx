@@ -24,9 +24,9 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-foreground mb-10"
         >
-          For Real Estate Operators
+          Earn Beyond
           <br />
-          <span className="text-gradient">Who Think Beyond Borders.</span>
+          <span className="text-gradient">Your Market.</span>
         </motion.h1>
 
         <motion.p
