@@ -38,7 +38,7 @@ const Navbar = () => {
             to="/apply"
             className="bg-primary text-primary-foreground text-xs font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-wide uppercase"
           >
-            Apply for Access
+            Apply for Membership
           </Link>
         </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-lg text-center hover:opacity-90 transition-opacity"
               >
-                Apply for Access
+                Apply for Membership
               </Link>
             </div>
           </motion.div>

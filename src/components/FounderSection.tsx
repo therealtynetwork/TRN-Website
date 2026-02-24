@@ -43,10 +43,10 @@ const FounderSection = () => {
             className="md:col-span-3 space-y-6"
           >
             <p className="text-foreground leading-relaxed text-base md:text-lg">
-              200+ transactions closed across multiple international markets. Based in Malta. Operating globally since the age of 20.
+              After closing over 200 real estate transactions in Malta, Jake identified a structural gap in international referral systems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              TRN was built from a gap in operational infrastructure — there was no structured, trust-verified system for cross-border real estate referrals.
+              The Realty Network was built to introduce territory leadership and structured cross-border collaboration into global real estate relationships.
             </p>
             <div className="pt-6 border-t border-border/50">
               <p className="text-muted-foreground text-sm">
@@ -55,6 +55,24 @@ const FounderSection = () => {
             </div>
           </motion.div>
         </div>
+
+        {/* Founder Video Placeholder */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mt-20 max-w-3xl mx-auto"
+        >
+          <div className="aspect-video rounded-xl border border-border/50 bg-card/30 flex items-center justify-center">
+            <div className="text-center space-y-3">
+              <div className="w-16 h-16 rounded-full border-2 border-primary/40 flex items-center justify-center mx-auto">
+                <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[16px] border-l-primary/60 border-b-[10px] border-b-transparent ml-1" />
+              </div>
+              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground">A message from the founder</p>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

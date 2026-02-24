@@ -12,7 +12,7 @@ const SocialProofSection = () => {
           viewport={{ once: true }}
           className="text-muted-foreground text-base md:text-lg mb-16 max-w-xl mx-auto leading-relaxed"
         >
-          Territory-led structure across multiple international markets.
+          Members positioned across multiple international markets.
         </motion.p>
 
         <motion.div
