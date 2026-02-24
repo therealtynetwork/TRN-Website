@@ -35,7 +35,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5, duration: 0.7 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-16 leading-relaxed font-sans"
         >
-          A private global referral infrastructure connecting vetted operators across strategically allocated territories.
+          TRN is a private global referral infrastructure built to ensure relationships compound — not reset — when clients move across borders.
         </motion.p>
 
         {/* CTAs */}
@@ -43,32 +43,18 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.6 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-col items-center gap-5"
         >
           <Link
             to="/apply"
-            className="bg-primary text-primary-foreground font-semibold px-8 py-3.5 rounded-lg text-base hover:opacity-90 transition-opacity w-full sm:w-auto"
+            className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"
           >
-            Apply for Membership
+            Apply for Territory Access
           </Link>
-          <a
-            href="https://calendly.com/jake-therealty-network/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-border text-foreground font-semibold px-8 py-3.5 rounded-lg text-base hover:bg-secondary transition-colors w-full sm:w-auto"
-          >
-            Book a Free Call
-          </a>
+          <p className="text-xs text-muted-foreground/50 tracking-[0.2em] uppercase">
+            Built for long-term operators.
+          </p>
         </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
-          className="text-xs text-muted-foreground/60 tracking-widest uppercase mt-10"
-        >
-          Territories are limited and allocated with intention.
-        </motion.p>
       </div>
     </header>
   );

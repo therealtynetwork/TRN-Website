@@ -8,6 +8,7 @@ import OperatingPrinciplesSection from "@/components/OperatingPrinciplesSection"
 import HowItWorksSection from "@/components/HowItWorksSection";
 import MembershipStandardsSection from "@/components/MembershipStandardsSection";
 import FounderSection from "@/components/FounderSection";
+import MovementSection from "@/components/MovementSection";
 import MembershipSection from "@/components/MembershipSection";
 import FAQSection from "@/components/FAQSection";
 import CTABanner from "@/components/CTABanner";
@@ -26,6 +27,7 @@ const Index = () => {
       <HowItWorksSection />
       <MembershipStandardsSection />
       <FounderSection />
+      <MovementSection />
       <MembershipSection />
       <FAQSection />
       <CTABanner />
