@@ -46,7 +46,7 @@ const HeroSection = () => {
           className="flex flex-col items-center gap-5"
         >
           <a
-            href="https://form.typeform.com/to/BQVU3bF2"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"

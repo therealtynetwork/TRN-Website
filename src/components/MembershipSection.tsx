@@ -63,7 +63,7 @@ const MembershipSection = () => {
             ))}
           </ul>
           <a
-            href="https://form.typeform.com/to/BQVU3bF2"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-3.5 rounded-lg hover:opacity-90 transition-opacity"
