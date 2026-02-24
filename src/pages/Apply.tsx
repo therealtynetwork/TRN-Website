@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 const applicationSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
@@ -36,7 +37,7 @@ const Apply = () => {
     setErrors({ ...errors, [e.target.name]: undefined });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const result = applicationSchema.safeParse(form);
     if (!result.success) {
@@ -49,10 +50,17 @@ const Apply = () => {
       return;
     }
     setSubmitting(true);
-    // Simulate submission
-    setTimeout(() => {
+    try {
+      const { data, error } = await supabase.functions.invoke("submit-application", {
+        body: result.data,
+      });
+      if (error) throw error;
       navigate("/apply/confirmation");
-    }, 1200);
+    } catch (err) {
+      console.error("Submission error:", err);
+      setErrors({ name: "Something went wrong. Please try again." });
+      setSubmitting(false);
+    }
   };
 
   const inputClass =
