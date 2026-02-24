@@ -49,7 +49,7 @@ const HeroSection = () => {
             to="/apply"
             className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"
           >
-            Apply for Territory Access
+            Apply for Membership
           </Link>
           <p className="text-xs text-muted-foreground/50 tracking-[0.2em] uppercase">
             Built for long-term operators.
