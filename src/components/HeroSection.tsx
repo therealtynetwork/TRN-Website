@@ -45,12 +45,14 @@ const HeroSection = () => {
           transition={{ delay: 0.9, duration: 0.6 }}
           className="flex flex-col items-center gap-5"
         >
-          <Link
-            to="/apply"
+          <a
+            href="https://form.typeform.com/to/BQVU3bF2"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"
           >
             Apply for Membership
-          </Link>
+          </a>
           <p className="text-xs text-muted-foreground/50 tracking-[0.2em] uppercase">
             Built for long-term operators.
           </p>
