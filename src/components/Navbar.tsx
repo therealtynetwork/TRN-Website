@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Benefits", href: "#benefits" },
-  { label: "How It Works", href: "#how-it-works" },
+  { label: "Infrastructure", href: "#benefits" },
+  { label: "Process", href: "#how-it-works" },
   { label: "Membership", href: "#membership" },
   { label: "FAQ", href: "#faq" },
 ];
@@ -27,16 +27,16 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="text-xs font-medium tracking-wide text-muted-foreground hover:text-foreground transition-colors uppercase"
             >
               {link.label}
             </a>
           ))}
           <Link
             to="/apply"
-            className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
+            className="bg-primary text-primary-foreground text-xs font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-wide uppercase"
           >
-            Apply to Join
+            Apply for Access
           </Link>
         </div>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-lg text-center hover:opacity-90 transition-opacity"
               >
-                Apply to Join
+                Apply for Access
               </Link>
             </div>
           </motion.div>

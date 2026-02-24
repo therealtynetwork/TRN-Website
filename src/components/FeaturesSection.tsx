@@ -4,33 +4,33 @@ import { Globe, FileText, Mic, Handshake, MapPin, BarChart3 } from "lucide-react
 const features = [
   {
     icon: Globe,
-    title: "Vetted Agent Network",
-    description: "Access verified agents organized by country and region. Every member is screened for quality, track record, and professionalism.",
+    title: "Verified Operator Directory",
+    description: "Access vetted agents organized by territory. Every member is screened for track record, licensing, and professional standards.",
   },
   {
     icon: FileText,
-    title: "Referral System + Templates",
-    description: "Structured referral agreements, intro templates, and tracking tools so nothing falls through the cracks.",
+    title: "Referral Infrastructure",
+    description: "Structured agreements, introduction protocols, and tracking systems. Nothing falls through the cracks.",
   },
   {
     icon: Mic,
-    title: "Exclusive Calls & Insights",
-    description: "Monthly calls with guest speakers covering sales, marketing, and market insights from across the globe.",
+    title: "Private Briefings",
+    description: "Monthly calls with market intelligence, guest operators, and strategic insights from across the network.",
   },
   {
     icon: Handshake,
     title: "Strategic Partners",
-    description: "Pre-vetted legal, tax, finance, and marketing partners ready to support your cross-border deals.",
+    description: "Pre-vetted legal, tax, finance, and advisory partners ready to support cross-border transactions.",
   },
   {
     icon: MapPin,
     title: "Territory Leadership",
-    description: "Become the ambassador for your market. Lead your territory, build your reputation, and earn priority referrals.",
+    description: "Designated market operators lead their territory, build local reputation, and receive priority referral allocation.",
   },
   {
     icon: BarChart3,
     title: "Deal & Opportunity Board",
-    description: "Access exclusive projects, investor intros, and off-market opportunities shared by network members.",
+    description: "Exclusive access to off-market opportunities, investor introductions, and cross-border project flow.",
   },
 ];
 
@@ -42,14 +42,14 @@ const FeaturesSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <p className="text-primary text-sm font-semibold tracking-widest uppercase mb-4">Membership Benefits</p>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            What You Get Inside TRN
+          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">Infrastructure</p>
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-5">
+            What the Network Provides
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Not a Facebook group. A structured operating network built for serious agents.
+            Institutional-grade tools and structure for serious cross-border operators.
           </p>
         </motion.div>
 
@@ -60,10 +60,10 @@ const FeaturesSection = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="glass-card p-8 group hover:border-primary/30 transition-colors"
+              transition={{ delay: i * 0.08, duration: 0.5 }}
+              className="glass-card p-10 group hover:border-primary/20 transition-colors"
             >
-              <f.icon className="w-8 h-8 text-primary mb-5" strokeWidth={1.5} />
+              <f.icon className="w-7 h-7 text-primary mb-6" strokeWidth={1.5} />
               <h3 className="font-serif text-lg font-semibold text-foreground mb-3">
                 {f.title}
               </h3>
