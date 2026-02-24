@@ -7,7 +7,6 @@ import FeaturesSection from "@/components/FeaturesSection";
 import OperatingPrinciplesSection from "@/components/OperatingPrinciplesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import MembershipStandardsSection from "@/components/MembershipStandardsSection";
-import InsideNetworkSection from "@/components/InsideNetworkSection";
 import FounderSection from "@/components/FounderSection";
 import MembershipSection from "@/components/MembershipSection";
 import FAQSection from "@/components/FAQSection";
@@ -26,7 +25,6 @@ const Index = () => {
       <OperatingPrinciplesSection />
       <HowItWorksSection />
       <MembershipStandardsSection />
-      <InsideNetworkSection />
       <FounderSection />
       <MembershipSection />
       <FAQSection />
