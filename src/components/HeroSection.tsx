@@ -24,9 +24,9 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-foreground mb-10"
         >
-          Earn Beyond
+          For Real Estate Operators
           <br />
-          <span className="text-gradient">Your Market.</span>
+          <span className="text-gradient">Who Think Beyond Borders.</span>
         </motion.h1>
 
         <motion.p
@@ -35,7 +35,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5, duration: 0.7 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-16 leading-relaxed font-sans"
         >
-          A private infrastructure layer connecting vetted real estate operators across territories.
+          A private global referral infrastructure connecting vetted operators across strategically allocated territories.
         </motion.p>
 
         {/* CTAs */}
@@ -49,7 +49,7 @@ const HeroSection = () => {
             to="/apply"
             className="bg-primary text-primary-foreground font-semibold px-8 py-3.5 rounded-lg text-base hover:opacity-90 transition-opacity w-full sm:w-auto"
           >
-            Apply for Access
+            Apply for Membership
           </Link>
           <a
             href="https://calendly.com/jake-therealty-network/30min"
@@ -60,6 +60,15 @@ const HeroSection = () => {
             Book a Free Call
           </a>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2, duration: 0.6 }}
+          className="text-xs text-muted-foreground/60 tracking-widest uppercase mt-10"
+        >
+          Territories are limited and allocated with intention.
+        </motion.p>
       </div>
     </header>
   );

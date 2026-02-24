@@ -66,7 +66,7 @@ const MembershipSection = () => {
             to="/apply"
             className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-3.5 rounded-lg hover:opacity-90 transition-opacity"
           >
-            Apply for Access
+            Apply for Membership
           </Link>
         </motion.div>
       </div>

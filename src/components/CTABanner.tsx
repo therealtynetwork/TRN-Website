@@ -21,7 +21,7 @@ const CTABanner = () => {
             to="/apply"
             className="bg-primary text-primary-foreground font-semibold px-8 py-3.5 rounded-lg hover:opacity-90 transition-opacity"
           >
-            Apply for Access
+            Apply for Membership
           </Link>
           <a
             href="https://calendly.com/jake-therealty-network/30min"
