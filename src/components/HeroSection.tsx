@@ -35,7 +35,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5, duration: 0.7 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-16 leading-relaxed font-sans"
         >
-          TRN is a private global referral infrastructure built to ensure relationships compound — not reset — when clients move across borders.
+          TRN is a private global referral infrastructure built to ensure relationships compound, not reset, when clients move across borders.
         </motion.p>
 
         {/* CTAs */}

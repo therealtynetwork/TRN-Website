@@ -14,7 +14,7 @@ const CTABanner = () => {
           This Is Being Built With Intention
         </h2>
         <p className="text-muted-foreground mb-12 max-w-lg mx-auto leading-relaxed">
-          If you're a serious operator who believes relationships should outlast borders — we'd like to hear from you.
+          If you're a serious operator who believes relationships should outlast borders, we'd like to hear from you.
         </p>
         <Link
           to="/apply"

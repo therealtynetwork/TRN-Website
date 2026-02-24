@@ -51,15 +51,15 @@ const FounderSection = () => {
             className="md:col-span-3 space-y-8"
           >
             <p className="text-foreground leading-relaxed text-base md:text-lg">
-              I got into real estate young — in Malta, a small island where everyone knows everyone. I learned fast, made mistakes faster, and over time built something real. More than 200 transactions. Relationships that meant something.
+              I got into real estate young, in Malta, a small island where everyone knows everyone. I learned fast, made mistakes faster, and over time built something real. More than 200 transactions. Relationships that meant something.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              But there was a pattern I couldn't ignore. Every time a client left Malta — relocated, invested abroad, started a new chapter somewhere else — the relationship just… stopped. Not because of bad service. Not because they didn't trust me. Because there was nowhere for that trust to go.
+              But there was a pattern I couldn't ignore. Every time a client left Malta, relocated, invested abroad, started a new chapter somewhere else, the relationship just… stopped. Not because of bad service. Not because they didn't trust me. Because there was nowhere for that trust to go.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              I used to say "good luck" and mean it. But it frustrated me. I knew good operators in other markets. I knew those clients deserved better than starting from scratch. And I knew I was leaving value — and relationships — on the table.
+              I used to say "good luck" and mean it. But it frustrated me. I knew good operators in other markets. I knew those clients deserved better than starting from scratch. And I knew I was leaving value, and relationships, on the table.
             </p>
 
             <p className="text-foreground leading-relaxed text-base md:text-lg italic">
@@ -67,7 +67,7 @@ const FounderSection = () => {
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              So I stopped accepting that. I started building structure around what was missing — a way for serious operators to collaborate across markets with protected territories, accountability, and shared standards. Not a directory. Not a WhatsApp group. An infrastructure layer.
+              So I stopped accepting that. I started building structure around what was missing. A way for serious operators to collaborate across markets with protected territories, accountability, and shared standards. Not a directory. Not a WhatsApp group. An infrastructure layer.
             </p>
 
             <p className="text-foreground leading-relaxed text-base md:text-lg font-medium">

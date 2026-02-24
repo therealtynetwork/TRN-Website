@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     q: "How is TRN different from a referral group or directory?",
-    a: "TRN is a structured operating network — not a social group or passive directory. Every member is verified, territories are protected, referrals are tracked, and there is a single operator per market. This is institutional infrastructure, not networking.",
+    a: "TRN is a structured operating network, not a social group or passive directory. Every member is verified, territories are protected, referrals are tracked, and there is a single operator per market. This is institutional infrastructure, not networking.",
   },
   {
     q: "How do referrals work?",
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "Who is this for?",
-    a: "Established real estate operators with proven market presence and active deal flow. If you're serious about cross-border business, trusted infrastructure, and long-term positioning — TRN is built for you.",
+    a: "Established real estate operators with proven market presence and active deal flow. If you're serious about cross-border business, trusted infrastructure, and long-term positioning, TRN is built for you.",
   },
   {
     q: "How are members verified?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Does TRN take a commission?",
-    a: "No. Referral agreements are between operators. TRN provides the infrastructure, verification, and trust layer — not a commission structure.",
+    a: "No. Referral agreements are between operators. TRN provides the infrastructure, verification, and trust layer, not a commission structure.",
   },
   {
     q: "Can I represent my territory?",
