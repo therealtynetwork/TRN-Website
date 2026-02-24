@@ -27,6 +27,8 @@ const HeroSection = () => {
           Global Referral Infrastructure
           <br />
           <span className="text-gradient">for Real Estate Operators</span>
+          <br />
+          <span className="text-gradient">Earn Beyond Your Market</span>
         </motion.h1>
 
         <motion.p

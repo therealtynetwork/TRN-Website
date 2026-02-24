@@ -30,8 +30,8 @@ const FooterSection = () => {
           {/* Contact */}
           <div className="flex flex-col gap-2">
             <h4 className="font-semibold text-foreground text-xs tracking-[0.2em] uppercase mb-3">Contact</h4>
-            <a href="mailto:hello@therealty-network.com" className="text-muted-foreground text-sm hover:text-foreground transition-colors">hello@therealty-network.com</a>
-            <a href="#" className="text-muted-foreground text-sm hover:text-foreground transition-colors">LinkedIn</a>
+            <a href="mailto:jake@therealty-network.com" className="text-muted-foreground text-sm hover:text-foreground transition-colors">jake@therealty-network.com</a>
+            <a href="https://www.linkedin.com/in/jake-engerer/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">LinkedIn</a>
             <div className="flex gap-4 mt-4">
               <a href="#" className="text-muted-foreground text-xs hover:text-foreground transition-colors">Terms</a>
               <a href="#" className="text-muted-foreground text-xs hover:text-foreground transition-colors">Privacy</a>
