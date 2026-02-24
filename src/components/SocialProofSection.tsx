@@ -4,7 +4,7 @@ const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy"
 
 const metrics = [
   { value: "7+", label: "Markets Active" },
-  { value: "200+", label: "Transactions Closed" },
+  { value: "€50M+", label: "Transaction Value Closed" },
   { value: "1", label: "Operator Per Territory" },
 ];
 
