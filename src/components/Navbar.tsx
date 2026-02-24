@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -17,7 +18,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <Link to="/" className="font-serif text-xl font-bold tracking-tight text-foreground">
+        <Link to="/" className="flex items-center gap-2 font-serif text-xl font-bold tracking-tight text-foreground">
+          <img src={logo} alt="TRN Logo" className="h-7 w-auto" />
           TRN<span className="text-primary">.</span>
         </Link>
 
