@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const FooterSection = () => {
   return (
@@ -7,7 +8,8 @@ const FooterSection = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <Link to="/" className="font-serif text-xl font-bold text-foreground">
+            <Link to="/" className="flex items-center gap-2 font-serif text-xl font-bold text-foreground">
+              <img src={logo} alt="TRN Logo" className="h-7 w-auto" />
               TRN<span className="text-primary">.</span>
             </Link>
             <p className="text-muted-foreground text-sm mt-4 leading-relaxed max-w-xs">
