@@ -11,10 +11,10 @@ const CTABanner = () => {
         className="max-w-2xl mx-auto text-center"
       >
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-          Your Territory Is Waiting
+          Open to Operators Worldwide
         </h2>
         <p className="text-muted-foreground mb-10 max-w-lg mx-auto leading-relaxed">
-          Limited positions. Protected markets. Apply while your territory is open.
+          No territory restrictions. If you're a verified operator looking to earn globally and you meet the standard — there's a place for you here.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
