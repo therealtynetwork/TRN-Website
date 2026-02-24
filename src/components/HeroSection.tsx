@@ -24,9 +24,9 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-foreground mb-8"
         >
-          Private Global
+          Close More Deals.
           <br />
-          <span className="text-gradient">Referral Infrastructure</span>
+          <span className="text-gradient">Earn Beyond Your Market.</span>
         </motion.h1>
 
         {/* Subheadline */}
