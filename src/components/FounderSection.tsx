@@ -55,7 +55,11 @@ const FounderSection = () => {
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              I kept losing clients. Not because of bad service. Not because of price. Because they were moving — to another country, another market, another life. And I had no structured way to stay connected to that opportunity, or to connect them with someone I actually trusted on the other side.
+              I used to wish clients luck when they left Malta. A handshake, a good word, and that was it. The relationship just… ended. Not because of bad service. Not because of price. Because they were moving — to another country, another market, another life. And I had no structured way to stay connected to that opportunity, or to connect them with someone I actually trusted on the other side.
+            </p>
+
+            <p className="text-foreground leading-relaxed text-base md:text-lg italic">
+              I realised relationships shouldn't end at borders.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
@@ -63,11 +67,11 @@ const FounderSection = () => {
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              I didn't want to accept that. I believed there was a better way — one built on structure, not luck. One where operators are verified, territories are respected, and collaboration has a real framework behind it.
+              Instead of accepting that, I decided to build structure around it. A way for verified operators to collaborate across borders — with protected territories, tracked referrals, and real accountability.
             </p>
 
             <p className="text-foreground leading-relaxed text-base md:text-lg">
-              Relationships are the real asset in this industry. Not listings. Not leads. Relationships. And they deserve infrastructure — not just good intentions.
+              Real estate is built on trust. Trust needs infrastructure. Not listings. Not leads. Relationships. And they deserve a system — not just good intentions.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
@@ -97,6 +101,9 @@ const FounderSection = () => {
               </div>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground">
                 A message from the founder
+              </p>
+              <p className="text-[10px] tracking-[0.15em] uppercase text-muted-foreground/50 mt-1">
+                Coming soon
               </p>
             </div>
           </div>
