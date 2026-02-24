@@ -35,7 +35,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://form.typeform.com/to/BQVU3bF2"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground text-xs font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-wide uppercase"
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://form.typeform.com/to/BQVU3bF2"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
