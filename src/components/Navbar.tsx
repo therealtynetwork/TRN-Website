@@ -34,12 +34,14 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <Link
-            to="/apply"
+          <a
+            href="https://form.typeform.com/to/BQVU3bF2"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-primary-foreground text-xs font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-wide uppercase"
           >
             Apply for Membership
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -72,13 +74,15 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <Link
-                to="/apply"
+              <a
+                href="https://form.typeform.com/to/BQVU3bF2"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-lg text-center hover:opacity-90 transition-opacity"
               >
                 Apply for Membership
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}

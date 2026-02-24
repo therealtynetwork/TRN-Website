@@ -62,12 +62,14 @@ const MembershipSection = () => {
               </li>
             ))}
           </ul>
-          <Link
-            to="/apply"
+          <a
+            href="https://form.typeform.com/to/BQVU3bF2"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-3.5 rounded-lg hover:opacity-90 transition-opacity"
           >
             Apply for Membership
-          </Link>
+          </a>
         </motion.div>
       </div>
     </section>

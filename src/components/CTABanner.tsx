@@ -16,12 +16,14 @@ const CTABanner = () => {
         <p className="text-muted-foreground mb-12 max-w-lg mx-auto leading-relaxed">
           If you're a serious operator who believes relationships should outlast borders, we'd like to hear from you.
         </p>
-        <Link
-          to="/apply"
+        <a
+          href="https://form.typeform.com/to/BQVU3bF2"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
         >
           Request Membership Review
-        </Link>
+        </a>
       </motion.div>
     </section>
   );
