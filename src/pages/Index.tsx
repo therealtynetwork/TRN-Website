@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import SocialProofSection from "@/components/SocialProofSection";
 import BeliefSection from "@/components/BeliefSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import TerritorySection from "@/components/TerritorySection";
+import OperatingPrinciplesSection from "@/components/OperatingPrinciplesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import MembershipStandardsSection from "@/components/MembershipStandardsSection";
 import FounderSection from "@/components/FounderSection";
@@ -20,7 +20,7 @@ const Index = () => {
       <SocialProofSection />
       <BeliefSection />
       <FeaturesSection />
-      <TerritorySection />
+      <OperatingPrinciplesSection />
       <HowItWorksSection />
       <MembershipStandardsSection />
       <FounderSection />
