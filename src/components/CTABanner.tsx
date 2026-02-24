@@ -11,27 +11,17 @@ const CTABanner = () => {
         className="max-w-2xl mx-auto text-center"
       >
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-          Open to Operators Worldwide
+          This Is Being Built With Intention
         </h2>
-        <p className="text-muted-foreground mb-10 max-w-lg mx-auto leading-relaxed">
-          No territory restrictions. If you're a verified operator looking to earn globally and you meet the standard — there's a place for you here.
+        <p className="text-muted-foreground mb-12 max-w-lg mx-auto leading-relaxed">
+          If you're a serious operator who believes relationships should outlast borders — we'd like to hear from you.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link
-            to="/apply"
-            className="bg-primary text-primary-foreground font-semibold px-8 py-3.5 rounded-lg hover:opacity-90 transition-opacity"
-          >
-            Apply for Membership
-          </Link>
-          <a
-            href="https://calendly.com/jake-therealty-network/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-border text-foreground font-semibold px-8 py-3.5 rounded-lg hover:bg-secondary transition-colors"
-          >
-            Book a Free Call
-          </a>
-        </div>
+        <Link
+          to="/apply"
+          className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
+        >
+          Request Membership Review
+        </Link>
       </motion.div>
     </section>
   );

@@ -10,17 +10,15 @@ const BeliefSection = () => {
           viewport={{ once: true }}
           className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-8"
         >
-          Purpose
+          Belief
         </motion.p>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-12 leading-[1.15]"
+          className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-14 leading-[1.15]"
         >
-          Real estate is global.
-          <br />
-          <span className="text-muted-foreground">Referral systems are not.</span>
+          Relationships Should Compound.
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 15 }}
@@ -30,10 +28,10 @@ const BeliefSection = () => {
           className="space-y-8 text-muted-foreground leading-relaxed max-w-2xl mx-auto text-base md:text-lg"
         >
           <p>
-            Cross-border opportunity exists. Structure around it often does not.
+            In real estate, relationships are the real asset. Yet when clients move markets, those relationships often reset.
           </p>
           <p>
-            TRN introduces territory leadership, alignment, and long-term professional standards into international collaboration.
+            TRN was built on a simple belief — geography should not determine the lifespan of trust.
           </p>
         </motion.div>
       </div>
