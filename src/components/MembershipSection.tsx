@@ -9,6 +9,7 @@ const features = [
   "Strategic partner access",
   "Deal & opportunity board",
   "Territory ambassador opportunities",
+  "1-on-1 call with the founder",
 ];
 
 const MembershipSection = () => {
