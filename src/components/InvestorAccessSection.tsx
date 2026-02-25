@@ -77,7 +77,7 @@ const InvestorAccessSection = () => {
           viewport={{ once: true }}
           className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
         >
-          Private Global Real Estate Access
+          Investors Private Global Real Estate Access
         </motion.h2>
 
         <motion.p
