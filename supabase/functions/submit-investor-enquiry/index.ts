@@ -13,7 +13,7 @@ Deno.serve(async (req) => {
 
   try {
     const body = await req.json();
-    const { name, email, country, budget, markets, investmentType, message } = body;
+    const { name, email, country, budget, markets, investmentType, message, referredBy } = body;
 
     if (!name || !email || !country || !budget || !markets || !investmentType) {
       return new Response(
@@ -34,6 +34,7 @@ Deno.serve(async (req) => {
       markets: markets.trim(),
       investment_type: investmentType.trim(),
       message: (message || "").trim(),
+      referred_by: (referredBy || "").trim() || null,
     });
 
     if (dbError) {
@@ -67,6 +68,7 @@ Deno.serve(async (req) => {
               <p><strong>Markets:</strong> ${markets}</p>
               <p><strong>Type:</strong> ${investmentType}</p>
               <p><strong>Message:</strong> ${message || "N/A"}</p>
+              <p><strong>Referred by:</strong> ${referredBy || "N/A"}</p>
             `,
           }),
         });

@@ -11,6 +11,7 @@ const enquirySchema = z.object({
   markets: z.string().trim().min(1, "Required").max(500),
   investmentType: z.string().trim().min(1, "Required").max(200),
   message: z.string().trim().max(2000),
+  referredBy: z.string().trim().max(200),
 });
 
 type EnquiryData = z.infer<typeof enquirySchema>;
@@ -25,6 +26,7 @@ const InvestorAccessSection = () => {
     markets: "",
     investmentType: "",
     message: "",
+    referredBy: "",
   });
   const [errors, setErrors] = useState<Partial<Record<keyof EnquiryData, string>>>({});
   const [submitting, setSubmitting] = useState(false);
@@ -295,6 +297,20 @@ const InvestorAccessSection = () => {
                       {errors.investmentType && (
                         <p className="text-destructive text-xs mt-1">{errors.investmentType}</p>
                       )}
+                    </div>
+
+                    <div>
+                      <label className="block text-xs font-medium text-foreground/70 uppercase tracking-wider mb-1.5">
+                        Were you recommended by someone? <span className="text-muted-foreground">(optional)</span>
+                      </label>
+                      <input
+                        type="text"
+                        name="referredBy"
+                        placeholder="Name of the person who referred you"
+                        value={form.referredBy}
+                        onChange={handleChange}
+                        className={inputClass}
+                      />
                     </div>
 
                     <div>

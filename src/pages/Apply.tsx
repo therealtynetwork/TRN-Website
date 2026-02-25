@@ -13,6 +13,7 @@ const applicationSchema = z.object({
   social: z.string().trim().max(300),
   whyJoin: z.string().trim().min(1, "Please tell us why you want to join").max(2000),
   biggestGoal: z.string().trim().min(1, "Please share your biggest goal").max(2000),
+  referredBy: z.string().trim().max(200),
 });
 
 type FormData = z.infer<typeof applicationSchema>;
@@ -28,6 +29,7 @@ const Apply = () => {
     social: "",
     whyJoin: "",
     biggestGoal: "",
+    referredBy: "",
   });
   const [errors, setErrors] = useState<Partial<Record<keyof FormData, string>>>({});
   const [submitting, setSubmitting] = useState(false);
@@ -124,6 +126,18 @@ const Apply = () => {
               )}
             </div>
           ))}
+
+          <div>
+            <label className="block text-sm font-medium text-foreground mb-1.5">Were you recommended by someone? (optional)</label>
+            <input
+              type="text"
+              name="referredBy"
+              placeholder="Name of the person who referred you"
+              value={form.referredBy}
+              onChange={handleChange}
+              className={inputClass}
+            />
+          </div>
 
           {[
             { name: "whyJoin" as const, label: "Why do you want to join TRN?", placeholder: "Tell us about your goals and what drew you to the network..." },
