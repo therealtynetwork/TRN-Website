@@ -24,13 +24,13 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "Territory Leadership",
-    description: "Designated market operators lead their territory, build local reputation, and receive priority referral allocation.",
+    title: "Market Leadership",
+    description: "Committed members can step into leadership roles, build local reputation, and help shape the network in their region.",
   },
   {
     icon: BarChart3,
     title: "Deal & Opportunity Board",
-    description: "Exclusive access to off-market opportunities, investor introductions, and cross-border project flow.",
+    description: "Access to off-market opportunities, investor introductions, and cross-border project flow available to all members.",
   },
 ];
 

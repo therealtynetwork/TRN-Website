@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     q: "How is TRN different from a referral group or directory?",
-    a: "TRN is a structured operating network, not a social group or passive directory. Every member is verified, territories are protected, referrals are tracked, and there is a single operator per market. This is institutional infrastructure, not networking.",
+    a: "TRN is a structured operating network, not a social group or passive directory. Every member is verified, referrals are tracked, and all operators have equal access to opportunities. This is institutional infrastructure, not networking.",
   },
   {
     q: "How do referrals work?",
@@ -28,8 +28,8 @@ const faqs = [
     a: "No. Referral agreements are between operators. TRN provides the infrastructure, verification, and trust layer, not a commission structure.",
   },
   {
-    q: "Can I represent my territory?",
-    a: "Territory leadership positions are available. Designated operators lead their market, support onboarding, and receive priority referral allocation. Indicate your interest in your application.",
+    q: "Can I take on a leadership role?",
+    a: "Leadership positions are available for members who demonstrate consistent contribution and professional excellence. Designated leaders support onboarding and help maintain network standards. Indicate your interest in your application.",
   },
 ];
 

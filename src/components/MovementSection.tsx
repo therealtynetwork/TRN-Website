@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 const pillars = [
   {
-    title: "Territory Leaders",
-    description: "One operator per market. Accountability over volume.",
+    title: "Market Leaders",
+    description: "Committed operators who set the standard. Input drives outcome.",
   },
   {
     title: "Structured Collaboration",

@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const inclusions = [
-  "Verified operator directory by territory",
-  "Structured referral system & protocols",
-  "Private monthly briefings & market intelligence",
+  "Verified operator directory by market",
+  "Structured referral system and protocols",
+  "Private monthly briefings and market intelligence",
   "Strategic partner access",
-  "Deal & opportunity board",
-  "Territory leadership eligibility",
+  "Deal and opportunity board",
+  "Leadership eligibility",
   "1-on-1 onboarding call with the founder",
 ];
 
@@ -52,7 +52,7 @@ const MembershipSection = () => {
           <p className="text-primary font-semibold text-lg mb-5">Application-Based Access</p>
           <p className="text-muted-foreground text-sm mb-10 leading-relaxed">
             Full access to the verified operator network, referral infrastructure, private briefings,
-            strategic partners, and territory leadership opportunities.
+            strategic partners, and leadership opportunities.
           </p>
           <ul className="space-y-4 mb-12">
             {inclusions.map((item, j) => (

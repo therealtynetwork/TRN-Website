@@ -8,8 +8,8 @@ const steps = [
   },
   {
     number: "02",
-    title: "Territory Alignment",
-    description: "Accepted operators are assigned to their designated territory. One operator per market.",
+    title: "Market Alignment",
+    description: "Accepted operators are aligned to their market. All members share equal access to opportunities.",
   },
   {
     number: "03",
