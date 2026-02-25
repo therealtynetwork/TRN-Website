@@ -3,23 +3,23 @@ import { motion } from "framer-motion";
 const standards = [
   {
     number: "01",
-    title: "Proven Market Presence",
-    description: "Demonstrated track record of active transactions and established reputation in your local market.",
+    title: "Market Presence or Clear Vision",
+    description: "Whether you are an established operator or an ambitious newcomer with a clear plan, we welcome professionals who are serious about building something meaningful in real estate.",
   },
   {
     number: "02",
-    title: "Active Deal Flow",
-    description: "Consistent pipeline and ongoing business activity, not speculative interest.",
+    title: "Active or Growing Deal Flow",
+    description: "You are either managing a consistent pipeline or actively working toward one. What matters is momentum and commitment, not just history.",
   },
   {
     number: "03",
     title: "Long-Term Mindset",
-    description: "Commitment to building lasting relationships and compounding value over time.",
+    description: "Commitment to building lasting relationships and compounding value over time. This network is for those who think beyond the next transaction.",
   },
   {
     number: "04",
-    title: "Structured Operating Standards",
-    description: "Alignment with professional referral protocols, communication standards, and accountability frameworks.",
+    title: "Professional Standards and Alignment",
+    description: "Willingness to operate with integrity, follow structured referral protocols, and uphold the communication and accountability standards of the network.",
   },
 ];
 
@@ -40,7 +40,7 @@ const MembershipStandardsSection = () => {
             Membership Standards
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Admission is selective. Every applicant is evaluated against four core criteria.
+            We welcome experienced operators and driven newcomers alike. Every applicant is evaluated on four core principles.
           </p>
         </motion.div>
 
