@@ -53,6 +53,42 @@ export type Database = {
         }
         Relationships: []
       }
+      investor_enquiries: {
+        Row: {
+          budget: string
+          country: string
+          created_at: string
+          email: string
+          id: string
+          investment_type: string
+          markets: string
+          message: string | null
+          name: string
+        }
+        Insert: {
+          budget: string
+          country: string
+          created_at?: string
+          email: string
+          id?: string
+          investment_type: string
+          markets: string
+          message?: string | null
+          name: string
+        }
+        Update: {
+          budget?: string
+          country?: string
+          created_at?: string
+          email?: string
+          id?: string
+          investment_type?: string
+          markets?: string
+          message?: string | null
+          name?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
