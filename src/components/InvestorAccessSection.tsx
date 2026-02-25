@@ -70,14 +70,6 @@ const InvestorAccessSection = () => {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-primary/30" />
 
       <div className="max-w-3xl mx-auto px-6 text-center">
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="text-primary/70 text-xs tracking-[0.3em] uppercase mb-6"
-        >
-          Coming Soon
-        </motion.p>
 
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -115,7 +107,7 @@ const InvestorAccessSection = () => {
           </p>
           <p>
             It is a structured access layer for investors who want exposure to strong opportunities
-            across multiple countries — without searching blindly or navigating unknown operators.
+            across multiple countries without searching blindly or navigating unknown operators.
           </p>
 
           <div className="pt-2">
@@ -138,7 +130,7 @@ const InvestorAccessSection = () => {
           </div>
 
           <p className="pt-2">
-            TRN acts as infrastructure and connector — not broker, advisor, or intermediary.
+            TRN acts as infrastructure and connector, not broker, advisor, or intermediary.
           </p>
           <p>Investor participation will remain free.</p>
         </motion.div>
