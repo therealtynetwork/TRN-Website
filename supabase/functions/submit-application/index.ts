@@ -13,7 +13,7 @@ Deno.serve(async (req) => {
 
   try {
     const body = await req.json();
-    const { name, email, country, agency, niche, social, whyJoin, biggestGoal } = body;
+    const { name, email, country, agency, niche, social, whyJoin, biggestGoal, referredBy } = body;
 
     if (!name || !email || !country || !whyJoin || !biggestGoal) {
       return new Response(
@@ -35,6 +35,7 @@ Deno.serve(async (req) => {
       social: (social || "").trim(),
       why_join: whyJoin.trim(),
       biggest_goal: biggestGoal.trim(),
+      referred_by: (referredBy || "").trim() || null,
     });
 
     if (dbError) {
@@ -69,6 +70,7 @@ Deno.serve(async (req) => {
               <p><strong>Social:</strong> ${social || "N/A"}</p>
               <p><strong>Why join:</strong> ${whyJoin}</p>
               <p><strong>Biggest goal:</strong> ${biggestGoal}</p>
+              <p><strong>Referred by:</strong> ${referredBy || "N/A"}</p>
             `,
           }),
         });

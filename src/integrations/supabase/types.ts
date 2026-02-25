@@ -24,6 +24,7 @@ export type Database = {
           id: string
           name: string
           niche: string | null
+          referred_by: string | null
           social: string | null
           why_join: string
         }
@@ -36,6 +37,7 @@ export type Database = {
           id?: string
           name: string
           niche?: string | null
+          referred_by?: string | null
           social?: string | null
           why_join: string
         }
@@ -48,6 +50,7 @@ export type Database = {
           id?: string
           name?: string
           niche?: string | null
+          referred_by?: string | null
           social?: string | null
           why_join?: string
         }
@@ -64,6 +67,7 @@ export type Database = {
           markets: string
           message: string | null
           name: string
+          referred_by: string | null
         }
         Insert: {
           budget: string
@@ -75,6 +79,7 @@ export type Database = {
           markets: string
           message?: string | null
           name: string
+          referred_by?: string | null
         }
         Update: {
           budget?: string
@@ -86,6 +91,7 @@ export type Database = {
           markets?: string
           message?: string | null
           name?: string
+          referred_by?: string | null
         }
         Relationships: []
       }
