@@ -4,8 +4,8 @@ import { MapPin, Handshake, TrendingUp, Shield } from "lucide-react";
 const principles = [
   {
     icon: MapPin,
-    title: "Territory Responsibility",
-    description: "Each operator is accountable for the service quality and reputation within their assigned market.",
+    title: "Market Responsibility",
+    description: "Each operator is accountable for the service quality and reputation within their market.",
   },
   {
     icon: Handshake,

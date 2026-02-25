@@ -113,14 +113,14 @@ const InvestorAccessSection = () => {
             Why This Matters for TRN Members
           </h3>
           <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-            As a TRN member, you gain access to a growing pool of qualified international investors actively looking for opportunities in your market. Instead of waiting for leads, investor enquiries are routed directly to the verified operator in the relevant territory.
+            As a TRN member, you gain access to a growing pool of qualified international investors actively looking for opportunities in your market. Investor enquiries are routed directly to verified members operating in the relevant region.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
-              { title: "Investor Leads Routed to You", desc: "Qualified investors matched to your territory automatically" },
+              { title: "Investor Leads Routed to You", desc: "Qualified investors matched to members in your market" },
               { title: "No Cost, No Commission to TRN", desc: "Transactions happen directly between you and the investor" },
-              { title: "Exclusive Territory Access", desc: "Only one verified operator per market receives leads" },
-              { title: "Global Deal Flow", desc: "Tap into cross-border investment demand you wouldn't reach alone" },
+              { title: "Equal Access for All Members", desc: "Every verified operator has the same opportunity to receive and act on leads" },
+              { title: "Global Deal Flow", desc: "Tap into cross-border investment demand you would not reach alone" },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
