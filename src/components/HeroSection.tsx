@@ -46,14 +46,12 @@ const HeroSection = () => {
           className="flex flex-col items-center gap-5"
         >
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/apply"
               className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg text-base hover:opacity-90 transition-opacity"
             >
               Apply for Membership
-            </a>
+            </Link>
             <a
               href="https://calendly.com/jake-therealty-network/30min"
               target="_blank"
