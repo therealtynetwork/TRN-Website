@@ -128,7 +128,7 @@ const Apply = () => {
           ))}
 
           <div>
-            <label className="block text-sm font-medium text-foreground mb-1.5">Were you recommended by someone? (optional)</label>
+            <label className="block text-sm font-medium text-foreground mb-1.5">Referred by? (optional)</label>
             <input
               type="text"
               name="referredBy"
