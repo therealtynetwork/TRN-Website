@@ -12,6 +12,7 @@ import MovementSection from "@/components/MovementSection";
 import MembershipSection from "@/components/MembershipSection";
 import FAQSection from "@/components/FAQSection";
 import CTABanner from "@/components/CTABanner";
+import InvestorAccessSection from "@/components/InvestorAccessSection";
 import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
@@ -31,6 +32,7 @@ const Index = () => {
       <MembershipSection />
       <FAQSection />
       <CTABanner />
+      <InvestorAccessSection />
       <FooterSection />
     </main>
   );
