@@ -5,6 +5,7 @@ const profiles = [
   "Agents with active deal flow",
   "Long-term strategic thinkers",
   "Professionals seeking structured cross-border access",
+  "Investors looking for opportunities from anywhere in the world",
 ];
 
 const WhoSection = () => {
