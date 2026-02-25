@@ -14,7 +14,7 @@ const Confirmation = () => {
       setCountdown((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          window.open(CALENDLY_URL, "_blank");
+          window.location.href = CALENDLY_URL;
           return 0;
         }
         return prev - 1;
