@@ -4,33 +4,33 @@ import { Globe, FileText, Mic, Handshake, MapPin, BarChart3 } from "lucide-react
 const features = [
   {
     icon: Globe,
-    title: "Verified Operator Directory",
-    description: "Access vetted agents organized by territory. Every member is screened for track record, licensing, and professional standards.",
+    title: "Verified Member Directory",
+    description: "Access a network of verified real estate professionals organized by market. Every member is reviewed for track record, licensing, and professional standards.",
   },
   {
     icon: FileText,
-    title: "Referral Infrastructure",
-    description: "Structured agreements, introduction protocols, and tracking systems. Nothing falls through the cracks.",
+    title: "Structured Referral System",
+    description: "Clear referral protocols and introduction processes so cross-border collaboration is organized and nothing is lost in translation.",
   },
   {
     icon: Mic,
-    title: "Private Briefings",
-    description: "Monthly calls with market intelligence, guest operators, and strategic insights from across the network.",
+    title: "Private Monthly Briefings",
+    description: "Regular calls with fellow members to share market updates, discuss trends, and exchange insights from across the network.",
   },
   {
     icon: Handshake,
-    title: "Strategic Partners",
-    description: "Pre-vetted legal, tax, finance, and advisory partners ready to support cross-border transactions.",
+    title: "Property of the Month",
+    description: "Each member can submit one featured property per month. Opportunities are reviewed and shared privately with our curated investor circle.",
   },
   {
     icon: MapPin,
-    title: "Market Leadership",
-    description: "Committed members can step into leadership roles, build local reputation, and help shape the network in their region.",
+    title: "Market Leadership Roles",
+    description: "Committed members can step into leadership roles to help shape the network in their region and support fellow operators.",
   },
   {
     icon: BarChart3,
-    title: "Deal & Opportunity Board",
-    description: "Access to off-market opportunities, investor introductions, and cross-border project flow available to all members.",
+    title: "Private Investor Introductions",
+    description: "When an investor expresses interest in a submitted property, their details are passed directly to the member who promoted it.",
   },
 ];
 
@@ -49,7 +49,7 @@ const FeaturesSection = () => {
             What the Network Provides
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Institutional-grade tools and structure for serious cross-border operators.
+            The tools and structure that support serious cross-border collaboration between verified members and qualified investors.
           </p>
         </motion.div>
 
