@@ -65,31 +65,75 @@ const InvestorAccessSection = () => {
     "w-full bg-secondary border border-border rounded-lg px-4 py-3 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 transition";
 
   return (
-    <section id="investor-access" className="relative py-32 md:py-40 overflow-hidden">
-      {/* Subtle top border */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-primary/30" />
+    <section id="investor-access" className="relative py-32 md:py-44 overflow-hidden bg-secondary/30">
+      {/* Decorative elements */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
 
-      <div className="max-w-3xl mx-auto px-6 text-center">
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6"
+          >
+            Exclusive Investor Channel
+          </motion.p>
 
-        <motion.h2
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6"
+          >
+            Investors Private Global Real Estate Access
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-muted-foreground text-lg max-w-2xl mx-auto"
+          >
+            A private channel connecting serious global investors with vetted opportunities sourced directly through our international network of trusted agents.
+          </motion.p>
+        </div>
+
+        {/* Agent Value Proposition */}
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
+          transition={{ delay: 0.15 }}
+          className="glass-card border-primary/20 p-8 md:p-10 mb-12"
         >
-          Investors Private Global Real Estate Access
-        </motion.h2>
+          <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-4">
+            Why This Matters for TRN Members
+          </h3>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+            As a TRN member, you gain access to a growing pool of qualified international investors actively looking for opportunities in your market. Instead of waiting for leads, investor enquiries are routed directly to the verified operator in the relevant territory.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Investor Leads Routed to You", desc: "Qualified investors matched to your territory automatically" },
+              { title: "No Cost, No Commission to TRN", desc: "Transactions happen directly between you and the investor" },
+              { title: "Exclusive Territory Access", desc: "Only one verified operator per market receives leads" },
+              { title: "Global Deal Flow", desc: "Tap into cross-border investment demand you wouldn't reach alone" },
+            ].map((item) => (
+              <div key={item.title} className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
+                <div>
+                  <p className="text-foreground text-sm font-medium">{item.title}</p>
+                  <p className="text-muted-foreground text-xs mt-0.5">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </motion.div>
 
-        <motion.p
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.1 }}
-          className="text-muted-foreground text-lg mb-12"
-        >
-          For investors seeking vetted opportunities across international markets.
-        </motion.p>
-
+        {/* How it works for investors */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -141,13 +185,17 @@ const InvestorAccessSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
+          className="text-center"
         >
           <button
             onClick={() => setShowForm(true)}
-            className="border border-primary/40 text-primary px-8 py-3.5 rounded-lg text-sm font-medium tracking-wide hover:bg-primary/10 transition-colors"
+            className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-sm tracking-wide"
           >
-            Request Private Access
+            Request Private Investor Access
           </button>
+          <p className="text-muted-foreground text-xs mt-4">
+            Are you an agent? <a href="#membership" className="text-primary hover:underline">Join TRN</a> to receive investor leads in your territory.
+          </p>
         </motion.div>
       </div>
 
