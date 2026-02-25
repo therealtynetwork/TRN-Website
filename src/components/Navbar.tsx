@@ -35,14 +35,12 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/apply"
             className="bg-primary text-primary-foreground text-xs font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-wide uppercase"
           >
             Apply for Membership
-          </a>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -75,15 +73,13 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/apply"
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-lg text-center hover:opacity-90 transition-opacity"
               >
                 Apply for Membership
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}

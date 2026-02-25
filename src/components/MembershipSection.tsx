@@ -63,14 +63,12 @@ const MembershipSection = () => {
             ))}
           </ul>
           <div className="space-y-3">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSedn9fzUk5zVe7F3KumWMh2KrmMEzmF4cXKZxFgfCi3KvSzpg/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/apply"
               className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-3.5 rounded-lg hover:opacity-90 transition-opacity"
             >
               Apply for Membership
-            </a>
+            </Link>
             <a
               href="https://calendly.com/jake-therealty-network/30min"
               target="_blank"

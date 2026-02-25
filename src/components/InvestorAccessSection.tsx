@@ -223,9 +223,18 @@ const InvestorAccessSection = () => {
                   <p className="text-muted-foreground text-sm mb-6">
                     Thank you. We will review your enquiry and be in touch if there is alignment.
                   </p>
+                  <a
+                    href="https://calendly.com/jake-therealty-network/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-sm mb-4"
+                  >
+                    Book a Call with the Founder
+                  </a>
+                  <br />
                   <button
                     onClick={() => setShowForm(false)}
-                    className="text-primary text-sm hover:underline"
+                    className="text-muted-foreground text-sm hover:text-foreground transition-colors mt-2"
                   >
                     Close
                   </button>
