@@ -27,7 +27,7 @@ const MembershipSection = () => {
             Membership
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
-            Open to qualified operators worldwide. Application required.
+            Open to real estate professionals and investors worldwide. Whether you are established or just getting started, all we ask is commitment and integrity.
           </p>
         </motion.div>
 
@@ -37,7 +37,7 @@ const MembershipSection = () => {
           viewport={{ once: true }}
           className="text-center text-xs text-primary/70 tracking-[0.2em] uppercase mb-14"
         >
-          If you meet the standard, there's a place for you
+          If you are serious about growing, there is a place for you here
         </motion.p>
 
         <motion.div
