@@ -110,17 +110,17 @@ const InvestorAccessSection = () => {
           className="glass-card border-primary/20 p-8 md:p-10 mb-12"
         >
           <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-4">
-            Why This Matters for TRN Members
+            How It Works for TRN Members
           </h3>
           <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-            As a TRN member, you gain access to a growing pool of qualified international investors actively looking for opportunities in your market. Investor enquiries are routed directly to verified members operating in the relevant region.
+            Every TRN member can submit one featured property each month. Your submission is reviewed and then presented privately to our curated circle of qualified international investors. If an investor expresses interest, their contact details are passed directly to you so you can manage the conversation on your terms.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
-              { title: "Investor Leads Routed to You", desc: "Qualified investors matched to members in your market" },
-              { title: "No Cost, No Commission to TRN", desc: "Transactions happen directly between you and the investor" },
-              { title: "Equal Access for All Members", desc: "Every verified operator has the same opportunity to receive and act on leads" },
-              { title: "Global Deal Flow", desc: "Tap into cross-border investment demand you would not reach alone" },
+              { title: "Property of the Month", desc: "Each member submits one featured opportunity per month for private distribution" },
+              { title: "Curated Investor Introductions", desc: "Interested investors are connected to you directly, with full discretion" },
+              { title: "No Cost, No Commission to TRN", desc: "All transactions happen between you and the investor with no network fees" },
+              { title: "Equal Access for All Members", desc: "Every verified member has the same opportunity to present and receive interest" },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
@@ -142,28 +142,25 @@ const InvestorAccessSection = () => {
           className="text-left max-w-2xl mx-auto space-y-5 text-muted-foreground text-sm leading-relaxed mb-12"
         >
           <p>
-            The Realty Network is building a private, invitation-only investor circle designed to
-            connect serious global investors with carefully selected real estate opportunities from
-            our international ambassador network.
+            The Realty Network maintains a private, invitation only investor circle. Each month, verified members submit a single featured property to TRN. These opportunities are then reviewed and shared individually with qualified investors from our curated list.
           </p>
           <p className="text-foreground/80 font-medium">
-            This is not a public marketplace.
+            This is not a public marketplace or open listing platform.
           </p>
           <p>
-            It is a structured access layer for investors who want exposure to strong opportunities
-            across multiple countries without searching blindly or navigating unknown operators.
+            Every opportunity is handled with full discretion. If an investor expresses interest, TRN facilitates a private introduction by passing the investor's details directly to the member who submitted the property. From that point, the relationship is yours.
           </p>
 
           <div className="pt-2">
             <p className="text-foreground/70 text-xs tracking-[0.15em] uppercase mb-3">
-              Opportunities will be:
+              How the process works:
             </p>
             <ul className="space-y-2.5">
               {[
-                "Curated through vetted territory leaders",
-                "Submitted privately through the TRN network",
-                "Shared discreetly",
-                "Connected directly to the relevant local agent if interest is expressed",
+                "Members submit their Property of the Month to TRN",
+                "TRN reviews and distributes each opportunity privately to relevant investors",
+                "Interested investors are introduced directly to the submitting member",
+                "All communication and transactions take place between the member and the investor",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="w-1 h-1 rounded-full bg-primary/60 mt-2 shrink-0" />
@@ -176,7 +173,7 @@ const InvestorAccessSection = () => {
           <p className="pt-2">
             TRN acts as infrastructure and connector, not broker, advisor, or intermediary.
           </p>
-          <p>Investor participation will remain free.</p>
+          <p>Investor participation is free. There are no fees or commissions charged by the network.</p>
         </motion.div>
 
         {/* CTA */}
