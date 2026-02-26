@@ -8,6 +8,7 @@ const navLinks = [
   { label: "About", href: "#about" },
   { label: "Infrastructure", href: "#benefits" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Advantages", href: "#advantages" },
   { label: "Membership", href: "#membership" },
   { label: "Investors", href: "#investor-access" },
   { label: "FAQ", href: "#faq" },

@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 const MemberAdvantagesSection = () => {
   return (
-    <section className="section-padding">
+    <section id="advantages" className="section-padding">
       <div className="max-w-3xl mx-auto">
         <Separator className="bg-border/50 mb-20" />
 
