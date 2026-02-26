@@ -7,7 +7,7 @@ import logo from "@/assets/logo.png";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Infrastructure", href: "#benefits" },
-  { label: "Process", href: "#how-it-works" },
+  { label: "Testimonials", href: "#testimonials" },
   { label: "Membership", href: "#membership" },
   { label: "Investors", href: "#investor-access" },
   { label: "FAQ", href: "#faq" },
