@@ -12,7 +12,7 @@ const testimonials = [
     name: "Taylor Davidson",
     location: "South Africa",
     quote:
-      "The commission is a bonus. The real value is being part of a serious international network that creates long-term referral opportunities. Within my first week, I received a genuine opportunity through another member. Not by luck, but because TRN was built to make that happen.",
+      "The real value is being part of a serious international network that creates long-term referral opportunities. Within my first week, I received a genuine opportunity through another member. Not by luck, but because TRN was built to make that happen.",
   },
   {
     name: "David Briceag",
