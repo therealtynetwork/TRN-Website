@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy", "🇵🇹 Portugal", "🇺🇸 United States", "🇨🇦 Canada", "🇿🇦 South Africa"];
+const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy", "🇵🇹 Portugal", "🇺🇸 United States", "🇨🇦 Canada", "🇿🇦 South Africa", "🇦🇪 Dubai"];
 
 const SocialProofSection = () => {
   return (
