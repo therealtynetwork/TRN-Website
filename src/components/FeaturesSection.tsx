@@ -31,6 +31,7 @@ const features = [
     icon: BarChart3,
     title: "Private Investor Introductions",
     description: "When an investor expresses interest in a submitted property, their details are passed directly to the member who promoted it.",
+    badge: "Coming Soon",
   },
 ];
 
@@ -64,9 +65,16 @@ const FeaturesSection = () => {
               className="glass-card p-10 group hover:border-primary/20 transition-colors"
             >
               <f.icon className="w-7 h-7 text-primary mb-6" strokeWidth={1.5} />
-              <h3 className="font-serif text-lg font-semibold text-foreground mb-3">
-                {f.title}
-              </h3>
+              <div className="flex items-center gap-2 mb-3">
+                <h3 className="font-serif text-lg font-semibold text-foreground">
+                  {f.title}
+                </h3>
+                {"badge" in f && f.badge && (
+                  <span className="text-[10px] font-semibold tracking-wider uppercase text-primary border border-primary/30 rounded-full px-2 py-0.5">
+                    {f.badge}
+                  </span>
+                )}
+              </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {f.description}
               </p>
