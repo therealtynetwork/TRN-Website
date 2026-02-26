@@ -11,7 +11,7 @@ const navLinks = [
   { label: "Advantages", href: "#advantages" },
   { label: "Membership", href: "#membership" },
   { label: "Investors", href: "#investor-access" },
-  { label: "FAQ", href: "#faq" },
+  
 ];
 
 const Navbar = () => {
