@@ -9,23 +9,19 @@ import {
 const faqs = [
   {
     q: "How is TRN different from a referral group or directory?",
-    a: "TRN is a structured operating network, not a social group or passive directory. Every member is verified, referrals are tracked, and all operators have equal access to opportunities. This is institutional infrastructure, not networking.",
+    a: "TRN is a structured operating network, not a social group or passive directory. Referrals are tracked, and all operators have equal access to opportunities. This is institutional infrastructure, not networking.",
   },
   {
     q: "How do referrals work?",
-    a: "When a client is buying or selling in a market you don't serve, you submit a referral through the network. We match you with the verified operator in that territory, facilitate a structured introduction, and track the transaction to completion.",
+    a: "When a client is buying or selling in a market you don't serve, you can connect directly with any member in that territory or, if you're unsure, we can allocate the ideal person for you. From there, the introduction is facilitated and the transaction is tracked to completion.",
   },
   {
     q: "Who is this for?",
     a: "Established real estate operators with proven market presence and active deal flow. If you're serious about cross-border business, trusted infrastructure, and long-term positioning, TRN is built for you.",
   },
   {
-    q: "How are members verified?",
-    a: "Every applicant undergoes a review of their transaction history, market reputation, licensing, and professional standards. Applicants who don't meet our criteria are declined.",
-  },
-  {
     q: "Does TRN take a commission?",
-    a: "No. Referral agreements are between operators. TRN provides the infrastructure, verification, and trust layer, not a commission structure.",
+    a: "No. Referral agreements are between operators. TRN provides the infrastructure and trust layer, not a commission structure.",
   },
   {
     q: "Can I take on a leadership role?",
