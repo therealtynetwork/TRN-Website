@@ -4,11 +4,11 @@ import SocialProofSection from "@/components/SocialProofSection";
 import BeliefSection from "@/components/BeliefSection";
 import WhoSection from "@/components/WhoSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import OperatingPrinciplesSection from "@/components/OperatingPrinciplesSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
 import MembershipStandardsSection from "@/components/MembershipStandardsSection";
 import FounderSection from "@/components/FounderSection";
 import MovementSection from "@/components/MovementSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import MemberAdvantagesSection from "@/components/MemberAdvantagesSection";
 import MembershipSection from "@/components/MembershipSection";
 import FAQSection from "@/components/FAQSection";
 import CTABanner from "@/components/CTABanner";
@@ -24,11 +24,11 @@ const Index = () => {
       <BeliefSection />
       <WhoSection />
       <FeaturesSection />
-      <OperatingPrinciplesSection />
-      <HowItWorksSection />
       <MembershipStandardsSection />
       <FounderSection />
       <MovementSection />
+      <TestimonialsSection />
+      <MemberAdvantagesSection />
       <MembershipSection />
       <CTABanner />
       <InvestorAccessSection />
