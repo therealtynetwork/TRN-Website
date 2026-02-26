@@ -31,7 +31,7 @@ const BeliefSection = () => {
             In real estate, relationships are the real asset. Yet when clients move markets, those relationships often reset.
           </p>
           <p>
-            TRN was built on a simple belief: geography should not determine the lifespan of trust.
+            TRN was built on a simple belief: borders should never end a relationship built on trust.
           </p>
         </motion.div>
       </div>
