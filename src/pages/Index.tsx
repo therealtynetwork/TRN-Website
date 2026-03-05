@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import FounderVideoSection from "@/components/FounderVideoSection";
 import SocialProofSection from "@/components/SocialProofSection";
 import BeliefSection from "@/components/BeliefSection";
 
@@ -20,6 +21,7 @@ const Index = () => {
     <main className="bg-background min-h-screen">
       <Navbar />
       <HeroSection />
+      <FounderVideoSection />
       <SocialProofSection />
       <BeliefSection />
       
