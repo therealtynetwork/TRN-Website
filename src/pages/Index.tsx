@@ -21,6 +21,7 @@ const Index = () => {
     <main className="bg-background min-h-screen">
       <Navbar />
       <HeroSection />
+      <FounderVideoSection />
       <SocialProofSection />
       <BeliefSection />
       
