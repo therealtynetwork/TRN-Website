@@ -24,6 +24,16 @@ const FounderVideoSection = () => {
               Your browser does not support the video tag.
             </video>
           </div>
+          <div className="text-center mt-6">
+            <a
+              href="https://calendly.com/jake-therealty-network/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-border text-foreground font-semibold px-10 py-4 rounded-lg text-base hover:bg-secondary transition-colors"
+            >
+              Book a Call
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
