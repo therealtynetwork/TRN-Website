@@ -16,9 +16,10 @@ const FounderVideoSection = () => {
           <div className="aspect-video rounded-xl overflow-hidden border border-border/50 bg-card/30">
             <video
               controls
-              preload="metadata"
+              preload="auto"
               className="w-full h-full object-cover"
               poster=""
+              onLoadedMetadata={(e) => { const v = e.currentTarget; v.currentTime = 1; }}
             >
               <source src="/videos/founder-message.mp4" type="video/mp4" />
               Your browser does not support the video tag.
