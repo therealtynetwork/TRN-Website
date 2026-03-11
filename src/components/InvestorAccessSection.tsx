@@ -65,7 +65,7 @@ const InvestorAccessSection = () => {
     "w-full bg-secondary/80 border border-border/30 rounded-xl px-4 py-3.5 text-foreground text-sm placeholder:text-muted-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-300";
 
   return (
-    <section id="investor-access" className="relative py-24 md:py-32 overflow-hidden bg-secondary/20">
+    <section id="investor-access" className="relative py-12 md:py-16 overflow-hidden bg-secondary/20">
       {/* Decorative elements */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />

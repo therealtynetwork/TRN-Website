@@ -11,9 +11,9 @@ const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy"
 
 const SocialProofSection = () => {
   return (
-    <section className="py-20 md:py-28 overflow-hidden">
+    <section className="py-10 md:py-14 overflow-hidden">
       {/* Scrolling stats ticker */}
-      <div className="relative mb-20">
+      <div className="relative mb-12">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
         <motion.div

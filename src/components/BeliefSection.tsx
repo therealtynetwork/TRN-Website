@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const BeliefSection = () => {
   return (
-    <section className="py-24 md:py-32 px-6">
+    <section className="py-12 md:py-16 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <motion.p
           initial={{ opacity: 0 }}
