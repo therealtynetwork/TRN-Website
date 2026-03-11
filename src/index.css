@@ -20,7 +20,7 @@
     --secondary-foreground: 0 0% 95%;
 
     --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 55%;
+    --muted-foreground: 0 0% 70%;
 
     --accent: 38 65% 55%;
     --accent-foreground: 0 0% 4%;
@@ -56,7 +56,7 @@
     --secondary: 0 0% 12%;
     --secondary-foreground: 0 0% 95%;
     --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 55%;
+    --muted-foreground: 0 0% 70%;
     --accent: 38 65% 55%;
     --accent-foreground: 0 0% 4%;
     --destructive: 0 62.8% 30.6%;
@@ -97,7 +97,7 @@
   }
 
   .section-padding {
-    @apply px-6 py-32 md:px-12 md:py-40 lg:px-20 lg:py-52;
+    @apply px-6 py-16 md:px-12 md:py-20 lg:px-20 lg:py-24;
   }
 
   .glass-card {
