@@ -12,6 +12,16 @@ const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy"
 const SocialProofSection = () => {
   return (
     <section className="py-10 md:py-14 overflow-hidden">
+      {/* Section heading */}
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        className="text-center text-primary text-[10px] font-semibold tracking-[0.3em] uppercase mb-8"
+      >
+        More About Our Members
+      </motion.p>
+
       {/* Scrolling stats ticker */}
       <div className="relative mb-12">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
@@ -26,35 +36,6 @@ const SocialProofSection = () => {
               <span className="font-serif text-4xl md:text-5xl font-bold text-foreground">{stat.value}</span>
               <span className="text-xs tracking-[0.25em] uppercase text-muted-foreground">{stat.label}</span>
               <span className="text-border/60 text-2xl">·</span>
-            </div>
-          ))}
-        </motion.div>
-      </div>
-
-      {/* About Our Members */}
-      <div className="max-w-4xl mx-auto text-center px-6 mb-12">
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="text-primary text-[10px] font-semibold tracking-[0.3em] uppercase mb-6"
-        >
-          About Our Members
-        </motion.p>
-        <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto mb-12"
-        >
-          {[
-            { title: "Established Operators", desc: "Experienced real estate professionals with active deal flow across multiple markets." },
-            { title: "Strategic Thinkers", desc: "Long-term investors and agents seeking structured cross-border access and partnerships." },
-            { title: "Global Reach", desc: "Professionals positioned across 8+ countries, closing deals and building portfolios internationally." },
-          ].map((item, i) => (
-            <div key={i} className="text-center">
-              <h4 className="font-serif text-lg font-semibold text-foreground mb-2">{item.title}</h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}
         </motion.div>
