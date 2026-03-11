@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import founderImg from "@/assets/founder.jpg";
 
 const FounderVideoSection = () => {
   return (
@@ -18,8 +19,7 @@ const FounderVideoSection = () => {
               controls
               preload="auto"
               className="w-full h-full object-cover"
-              poster=""
-              onLoadedMetadata={(e) => { const v = e.currentTarget; v.currentTime = 1; }}
+              poster={founderImg}
             >
               <source src="/videos/founder-message.mp4" type="video/mp4" />
               Your browser does not support the video tag.
