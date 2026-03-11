@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { TrendingUp, Users, Globe, Clock } from "lucide-react";
 
@@ -33,54 +32,57 @@ const advantages = [
 
 const MemberAdvantagesSection = () => {
   return (
-    <section id="advantages" className="section-padding">
+    <section id="advantages" className="py-24 md:py-32 px-6 md:px-12 lg:px-20">
       <div className="max-w-5xl mx-auto">
-        <Separator className="bg-border/50 mb-16" />
+        {/* Decorative line */}
+        <div className="w-16 h-px bg-primary/30 mx-auto mb-20" />
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-14"
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center mb-20"
         >
-          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">
+          <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">
             Advantages
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-5">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
             Member Advantages
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-5">
           {advantages.map((item, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 25 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.08 }}
-              className="glass-card p-8 hover:border-primary/20 transition-colors"
+              transition={{ delay: i * 0.08, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              className="group bg-card/40 backdrop-blur-sm border border-border/30 rounded-2xl p-10 md:p-12 hover:border-primary/20 transition-all duration-500"
             >
-              <item.icon className="w-7 h-7 text-primary mb-5" strokeWidth={1.5} />
+              <item.icon className="w-8 h-8 text-primary mb-8" strokeWidth={1.2} />
               {item.badge && (
                 <Badge
                   variant="outline"
-                  className="border-primary/40 text-primary text-xs tracking-wider uppercase px-3 py-1 mb-4"
+                  className="border-primary/30 text-primary text-[9px] tracking-[0.2em] uppercase px-3 py-1 mb-5"
                 >
                   {item.badge}
                 </Badge>
               )}
-              <h3 className="font-serif text-lg font-semibold text-foreground mb-3">
+              <h3 className="font-serif text-xl font-semibold text-foreground mb-4">
                 {item.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-sm leading-[1.8]">
                 {item.description}
               </p>
             </motion.div>
           ))}
         </div>
 
-        <Separator className="bg-border/50 mt-16" />
+        {/* Decorative line */}
+        <div className="w-16 h-px bg-primary/30 mx-auto mt-20" />
       </div>
     </section>
   );

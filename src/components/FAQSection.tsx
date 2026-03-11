@@ -31,16 +31,17 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section id="faq" className="section-padding bg-secondary/30">
+    <section id="faq" className="py-24 md:py-32 px-6 md:px-12 bg-secondary/20">
       <div className="max-w-3xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center mb-20"
         >
-          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">Questions</p>
-          <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
+          <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">Questions</p>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
             Frequently Asked Questions
           </h2>
         </motion.div>
@@ -50,12 +51,12 @@ const FAQSection = () => {
             <AccordionItem
               key={i}
               value={`faq-${i}`}
-              className="glass-card px-6 border-border/50"
+              className="bg-card/30 backdrop-blur-sm rounded-xl px-7 border border-border/30"
             >
-              <AccordionTrigger className="text-foreground text-left font-sans font-medium text-sm md:text-base hover:no-underline py-5">
+              <AccordionTrigger className="text-foreground text-left font-sans font-medium text-sm md:text-base hover:no-underline py-6">
                 {faq.q}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-sm leading-relaxed pb-5">
+              <AccordionContent className="text-muted-foreground text-sm leading-[1.8] pb-6">
                 {faq.a}
               </AccordionContent>
             </AccordionItem>

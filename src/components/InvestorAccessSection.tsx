@@ -62,30 +62,31 @@ const InvestorAccessSection = () => {
   };
 
   const inputClass =
-    "w-full bg-secondary border border-border rounded-lg px-4 py-3 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/40 transition";
+    "w-full bg-secondary/80 border border-border/30 rounded-xl px-4 py-3.5 text-foreground text-sm placeholder:text-muted-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all duration-300";
 
   return (
-    <section id="investor-access" className="relative py-16 md:py-20 overflow-hidden bg-secondary/30">
+    <section id="investor-access" className="relative py-24 md:py-32 overflow-hidden bg-secondary/20">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
 
       <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6"
+            className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6"
           >
             Exclusive Investor Channel
           </motion.p>
 
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6"
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6"
           >
             Investors Private Global Real Estate Access
           </motion.h2>
@@ -95,7 +96,7 @@ const InvestorAccessSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-muted-foreground text-lg max-w-2xl mx-auto"
+            className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto leading-relaxed"
           >
             A private channel connecting serious global investors with vetted opportunities sourced directly through our international network of trusted agents.
           </motion.p>
@@ -107,15 +108,15 @@ const InvestorAccessSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.15 }}
-          className="glass-card border-primary/20 p-8 md:p-10 mb-12"
+          className="bg-card/40 backdrop-blur-sm border border-primary/15 rounded-2xl p-10 md:p-12 mb-14"
         >
-          <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-4">
+          <h3 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-5">
             How It Works for TRN Members
           </h3>
-          <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+          <p className="text-muted-foreground text-sm leading-[1.8] mb-8">
             Every TRN member can submit one featured property each month. Your submission is reviewed and then presented privately to our curated circle of qualified international investors. If an investor expresses interest, their contact details are passed directly to you so you can manage the conversation on your terms.
           </p>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-5">
             {[
               { title: "Property of the Month", desc: "Each member submits one featured opportunity per month for private distribution" },
               { title: "Curated Investor Introductions", desc: "Interested investors are connected to you directly, with full discretion" },
@@ -123,10 +124,10 @@ const InvestorAccessSection = () => {
               { title: "Equal Access for All Members", desc: "Every verified member has the same opportunity to present and receive interest" },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
-                <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
+                <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
                 <div>
                   <p className="text-foreground text-sm font-medium">{item.title}</p>
-                  <p className="text-muted-foreground text-xs mt-0.5">{item.desc}</p>
+                  <p className="text-muted-foreground text-xs mt-1 leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -139,7 +140,7 @@ const InvestorAccessSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="text-left max-w-2xl mx-auto space-y-5 text-muted-foreground text-sm leading-relaxed mb-12"
+          className="text-left max-w-2xl mx-auto space-y-6 text-muted-foreground text-sm leading-[1.8] mb-14"
         >
           <p>
             The Realty Network maintains a private, invitation only investor circle. Each month, verified members submit a single featured property to TRN. These opportunities are then reviewed and shared individually with qualified investors from our curated list.
@@ -151,11 +152,11 @@ const InvestorAccessSection = () => {
             Every opportunity is handled with full discretion. If an investor expresses interest, TRN facilitates a private introduction by passing the investor's details directly to the member who submitted the property. From that point, the relationship is yours.
           </p>
 
-          <div className="pt-2">
-            <p className="text-foreground/70 text-xs tracking-[0.15em] uppercase mb-3">
+          <div className="pt-4">
+            <p className="text-foreground/60 text-[10px] tracking-[0.2em] uppercase mb-4">
               How the process works:
             </p>
-            <ul className="space-y-2.5">
+            <ul className="space-y-3">
               {[
                 "Members submit their Property of the Month to TRN",
                 "TRN reviews and distributes each opportunity privately to relevant investors",
@@ -163,7 +164,7 @@ const InvestorAccessSection = () => {
                 "All communication and transactions take place between the member and the investor",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <span className="w-1 h-1 rounded-full bg-primary/60 mt-2 shrink-0" />
+                  <span className="w-1 h-1 rounded-full bg-primary/50 mt-2 shrink-0" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -186,11 +187,11 @@ const InvestorAccessSection = () => {
         >
           <button
             onClick={() => setShowForm(true)}
-            className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-sm tracking-wide"
+            className="bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-xl hover:opacity-90 transition-opacity text-sm tracking-[0.1em] uppercase"
           >
             Request Private Investor Access
           </button>
-          <p className="text-muted-foreground text-xs mt-4">
+          <p className="text-muted-foreground/50 text-xs mt-5">
             Are you an agent? <a href="#membership" className="text-primary hover:underline">Join TRN</a> to receive investor leads in your territory.
           </p>
         </motion.div>
@@ -203,14 +204,14 @@ const InvestorAccessSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm px-4"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-background/85 backdrop-blur-md px-4"
             onClick={(e) => e.target === e.currentTarget && setShowForm(false)}
           >
             <motion.div
               initial={{ opacity: 0, y: 30, scale: 0.97 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 30, scale: 0.97 }}
-              className="bg-card border border-border rounded-xl w-full max-w-lg max-h-[90vh] overflow-y-auto p-8"
+              className="bg-card border border-border/30 rounded-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto p-10"
             >
               {submitted ? (
                 <div className="text-center py-8">
@@ -224,7 +225,7 @@ const InvestorAccessSection = () => {
                     href="https://calendly.com/jake-therealty-network/30min"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-sm mb-4"
+                    className="inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl hover:opacity-90 transition-opacity text-sm mb-4"
                   >
                     Book a Call with the Founder
                   </a>
@@ -238,7 +239,7 @@ const InvestorAccessSection = () => {
                 </div>
               ) : (
                 <>
-                  <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-center justify-between mb-8">
                     <h3 className="font-serif text-xl font-bold text-foreground">
                       Request Private Access
                     </h3>
@@ -259,7 +260,7 @@ const InvestorAccessSection = () => {
                       { name: "markets" as const, label: "Markets of Interest", placeholder: "e.g. Spain, Portugal, UAE", type: "text" },
                     ].map((field) => (
                       <div key={field.name}>
-                        <label className="block text-xs font-medium text-foreground/70 uppercase tracking-wider mb-1.5">
+                        <label className="block text-[10px] font-medium text-foreground/60 uppercase tracking-[0.2em] mb-2">
                           {field.label}
                         </label>
                         <input
@@ -277,7 +278,7 @@ const InvestorAccessSection = () => {
                     ))}
 
                     <div>
-                      <label className="block text-xs font-medium text-foreground/70 uppercase tracking-wider mb-1.5">
+                      <label className="block text-[10px] font-medium text-foreground/60 uppercase tracking-[0.2em] mb-2">
                         Type of Investment
                       </label>
                       <select
@@ -297,10 +298,9 @@ const InvestorAccessSection = () => {
                       )}
                     </div>
 
-
                     <div>
-                      <label className="block text-xs font-medium text-foreground/70 uppercase tracking-wider mb-1.5">
-                        Short Message <span className="text-muted-foreground">(optional)</span>
+                      <label className="block text-[10px] font-medium text-foreground/60 uppercase tracking-[0.2em] mb-2">
+                        Short Message <span className="text-muted-foreground/50">(optional)</span>
                       </label>
                       <textarea
                         name="message"
@@ -315,12 +315,12 @@ const InvestorAccessSection = () => {
                     <button
                       type="submit"
                       disabled={submitting}
-                      className="w-full bg-primary text-primary-foreground font-semibold py-3 rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50 text-sm"
+                      className="w-full bg-primary text-primary-foreground font-semibold py-3.5 rounded-xl hover:opacity-90 transition-opacity disabled:opacity-50 text-sm tracking-[0.1em] uppercase"
                     >
                       {submitting ? "Submitting..." : "Submit Enquiry"}
                     </button>
 
-                    <p className="text-muted-foreground text-[11px] leading-relaxed text-center pt-2">
+                    <p className="text-muted-foreground/40 text-[11px] leading-relaxed text-center pt-2">
                       TRN does not provide financial advice or act as a broker. All transactions
                       occur directly between investor and local agent.
                     </p>
