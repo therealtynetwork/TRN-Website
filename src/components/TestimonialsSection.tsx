@@ -30,53 +30,54 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="section-padding">
+    <section id="testimonials" className="py-24 md:py-32 px-6 md:px-12 lg:px-20">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center mb-20"
         >
-          <p className="text-primary text-xs font-semibold tracking-[0.25em] uppercase mb-6">
+          <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">
             Testimonials
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-5">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
             Members Testimonials
           </h2>
-          <p className="text-muted-foreground max-w-lg mx-auto">
+          <p className="text-muted-foreground max-w-lg mx-auto text-base">
             Founding ambassadors sharing their perspective on TRN.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 25 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="glass-card border-primary/20 p-8 flex flex-col justify-between"
+              transition={{ delay: i * 0.1, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              className="bg-card/40 backdrop-blur-sm border border-primary/10 rounded-2xl p-10 md:p-12 flex flex-col justify-between hover:border-primary/25 transition-all duration-500"
             >
               <div>
-                <div className="flex gap-0.5 mb-5">
+                <div className="flex gap-1 mb-6">
                   {Array.from({ length: 5 }).map((_, s) => (
                     <Star
                       key={s}
-                      className="w-4 h-4 fill-primary text-primary"
+                      className="w-3.5 h-3.5 fill-primary text-primary"
                     />
                   ))}
                 </div>
-                <p className="text-foreground/90 text-sm leading-relaxed italic mb-6">
+                <p className="text-foreground/85 text-sm leading-[1.9] italic mb-8">
                   "{t.quote}"
                 </p>
               </div>
-              <div>
-                <p className="text-foreground font-semibold text-sm">
+              <div className="pt-6 border-t border-border/30">
+                <p className="text-foreground font-semibold text-sm tracking-wide">
                   {t.name}
                 </p>
-                <p className="text-muted-foreground text-xs">{t.location}</p>
+                <p className="text-muted-foreground text-xs mt-1 tracking-wider">{t.location}</p>
               </div>
             </motion.div>
           ))}
@@ -86,7 +87,7 @@ const TestimonialsSection = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center text-muted-foreground/60 text-xs mt-10 tracking-wide"
+          className="text-center text-muted-foreground/40 text-[11px] mt-12 tracking-[0.2em] uppercase"
         >
           Early feedback from founding ambassador members.
         </motion.p>
