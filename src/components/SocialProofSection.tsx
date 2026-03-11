@@ -12,6 +12,16 @@ const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy"
 const SocialProofSection = () => {
   return (
     <section className="py-10 md:py-14 overflow-hidden">
+      {/* Section heading */}
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        className="text-center text-primary text-[10px] font-semibold tracking-[0.3em] uppercase mb-8"
+      >
+        More About Our Members
+      </motion.p>
+
       {/* Scrolling stats ticker */}
       <div className="relative mb-12">
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
