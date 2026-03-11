@@ -16,7 +16,7 @@ const FounderVideoSection = () => {
           <div className="aspect-video rounded-xl overflow-hidden border border-border/50 bg-card/30">
             <video
               controls
-              preload="metadata"
+              preload="auto"
               className="w-full h-full object-cover"
               poster=""
             >
