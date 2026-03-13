@@ -7,7 +7,7 @@ const stats = [
   { value: "Verified", label: "Operators" },
 ];
 
-const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy", "🇵🇹 Portugal", "🇺🇸 United States", "🇨🇦 Canada", "🇿🇦 South Africa", "🇦🇪 Dubai"];
+const countries = ["🇲🇹 Malta", "🇬🇧 United Kingdom", "🇮🇹 Italy", "🇵🇹 Portugal", "🇬🇷 Greece", "🇺🇸 United States", "🇨🇦 Canada", "🇿🇦 South Africa", "🇦🇪 Dubai"];
 
 const SocialProofSection = () => {
   return (
