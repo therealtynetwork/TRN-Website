@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const stats = [
   { value: "8+", label: "Countries" },
-  { value: "€100m+", label: "In Deals Closed" },
+  { value: "€500m+", label: "In Deals Closed" },
   { value: "Private", label: "Network" },
   { value: "Verified", label: "Operators" },
 ];
