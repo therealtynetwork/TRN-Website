@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "8+", label: "Countries" },
+  { value: "10+", label: "Countries" },
   { value: "Private", label: "Network" },
   { value: "Verified", label: "Operators" },
 ];
