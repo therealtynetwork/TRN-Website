@@ -31,6 +31,7 @@ const features = [
     icon: BarChart3,
     title: "Monthly Property Collaboration",
     description: "One featured listing slot per month to advertise and co-market within the TRN network.",
+    badge: "Coming Soon",
   },
 ];
 
@@ -71,6 +72,11 @@ const FeaturesSection = () => {
                   <h3 className="font-serif text-xl font-semibold text-foreground">
                     {f.title}
                   </h3>
+                  {"badge" in f && f.badge && (
+                    <span className="text-[9px] font-semibold tracking-[0.15em] uppercase text-primary border border-primary/30 rounded-full px-2.5 py-0.5">
+                      {f.badge}
+                    </span>
+                  )}
                 </div>
                 <p className="text-muted-foreground text-sm leading-[1.8]">
                   {f.description}
