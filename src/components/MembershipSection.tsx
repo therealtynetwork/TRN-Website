@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { motion } from "framer-motion";
 import { Check, Sparkles, Rocket, Crown } from "lucide-react";
 
@@ -70,12 +70,14 @@ const MembershipSection = () => {
                 </li>
               ))}
             </ul>
-            <Link
-              to="/apply"
+            <a
+              href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-4 rounded-xl hover:opacity-90 transition-opacity tracking-[0.1em] uppercase"
             >
               Apply for Membership
-            </Link>
+            </a>
           </motion.div>
 
           {/* DFY Lite Tier */}

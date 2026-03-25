@@ -24,7 +24,7 @@ const FooterSection = () => {
             <a href="#how-it-works" className="text-muted-foreground/60 text-sm hover:text-foreground transition-colors duration-300">Process</a>
             <a href="#membership" className="text-muted-foreground/60 text-sm hover:text-foreground transition-colors duration-300">Membership</a>
             <a href="#faq" className="text-muted-foreground/60 text-sm hover:text-foreground transition-colors duration-300">FAQ</a>
-            <Link to="/apply" className="text-primary text-sm font-semibold hover:opacity-80 transition-opacity mt-2">Apply for Access</Link>
+            <a href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m" target="_blank" rel="noopener noreferrer" className="text-primary text-sm font-semibold hover:opacity-80 transition-opacity mt-2">Apply for Access</a>
           </div>
 
           {/* Contact */}
