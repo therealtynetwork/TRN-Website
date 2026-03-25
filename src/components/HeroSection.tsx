@@ -56,12 +56,14 @@ const HeroSection = () => {
           className="flex flex-col items-center gap-6"
         >
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <Link
-              to="/apply"
+            <a
+              href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
             >
               Apply for Membership
-            </Link>
+            </a>
             <a
               href="https://calendly.com/jake-therealty-network/30min"
               target="_blank"

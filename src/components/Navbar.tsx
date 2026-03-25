@@ -75,13 +75,15 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <Link
-                to="/apply"
+              <a
+                href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-3 rounded-lg text-center hover:opacity-90 transition-opacity tracking-wider uppercase mt-2"
               >
                 Apply
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}

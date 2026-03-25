@@ -17,12 +17,14 @@ const CTABanner = () => {
           If you're a serious operator who believes relationships should outlast borders, we'd like to hear from you.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            to="/apply"
+          <a
+            href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
           >
             Request Membership Review
-          </Link>
+          </a>
           <a
             href="https://calendly.com/jake-therealty-network/30min"
             target="_blank"
