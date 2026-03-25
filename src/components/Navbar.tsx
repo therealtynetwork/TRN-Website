@@ -35,12 +35,14 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <Link
-            to="/apply"
+          <a
+            href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-primary-foreground text-[11px] font-semibold px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-[0.15em] uppercase"
           >
             Apply
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
