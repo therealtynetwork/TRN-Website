@@ -14,6 +14,7 @@ import MembershipSection from "@/components/MembershipSection";
 import FAQSection from "@/components/FAQSection";
 import CTABanner from "@/components/CTABanner";
 import InvestorAccessSection from "@/components/InvestorAccessSection";
+import ReferralSection from "@/components/ReferralSection";
 import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
