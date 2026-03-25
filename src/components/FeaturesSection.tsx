@@ -31,6 +31,7 @@ const features = [
     icon: BarChart3,
     title: "Monthly Property Collaboration",
     description: "One featured listing slot per month to advertise and co-market within the TRN network.",
+    badge: "Coming Soon",
   },
 ];
 
