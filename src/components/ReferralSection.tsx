@@ -4,7 +4,7 @@ const steps = [
   {
     number: "01",
     title: "You refer",
-    description: "Introduce any realtor you trust, anywhere in the world.",
+    description: "Introduce any realtor you trust, anywhere in the world. They join TRN at any tier.",
   },
   {
     number: "02",
@@ -14,7 +14,7 @@ const steps = [
   {
     number: "03",
     title: "You earn",
-    description: "25% of their membership, every renewal, for life.",
+    description: "25% of their membership fee comes to you.",
   },
 ];
 
@@ -36,7 +36,7 @@ const ReferralSection = () => {
             Know a great realtor?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-base leading-relaxed">
-            Every member you refer earns you 25% of their membership fee — paid to you for as long as they remain a member. No cap. No expiry. Just ongoing income from the network you are already part of.
+            Every member you refer earns you a 25% commission. No cap. Just ongoing income from the network you are already part of, paid to you.
           </p>
         </motion.div>
 

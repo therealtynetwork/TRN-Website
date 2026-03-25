@@ -4,7 +4,7 @@ import { Check, Sparkles, Rocket, Crown } from "lucide-react";
 
 const communityFeatures = [
   "Member introductions across global markets",
-  "100 targeted leads — criteria identified in your 1-on-1 onboarding call with the founder",
+  "100 targeted leads, criteria identified in your 1-on-1 onboarding call with the founder",
   "Monthly webinar co-hosted with a dedicated outreach expert",
   "FX partner referral access",
   "European tax and relocation expert access",
@@ -103,10 +103,10 @@ const MembershipSection = () => {
             <div className="bg-secondary/50 border border-border/30 rounded-xl p-5 mb-8">
               <p className="text-[10px] font-semibold tracking-[0.2em] uppercase text-primary mb-3">Your Dedicated Outreach Expert</p>
               <p className="text-muted-foreground text-xs leading-[1.8]">
-                DFY Lite members get direct access to a dedicated outreach specialist — the same expert behind TRN's own growth. This includes a personalised LinkedIn strategy, DM campaign design across LinkedIn and WhatsApp, and regular strategy reviews — all built specifically for real estate professionals.
+                DFY Lite members get direct access to a dedicated outreach specialist, the same expert behind TRN's own growth. This includes a personalised LinkedIn strategy, DM campaign design across LinkedIn and WhatsApp, and regular strategy reviews, all built specifically for real estate professionals.
               </p>
               <p className="text-muted-foreground/70 text-xs leading-[1.8] mt-3 italic">
-                The monthly webinar is co-hosted with this expert, so all members benefit from their knowledge regardless of tier.
+                This is not a generic VA. It is a real estate-specific outreach strategy built around your goals, your markets, and your voice.
               </p>
             </div>
             <a
