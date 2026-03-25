@@ -36,6 +36,7 @@ const Index = () => {
       
       <InvestorAccessSection />
       <FAQSection />
+      <ReferralSection />
       <FooterSection />
     </main>
   );
