@@ -16,10 +16,12 @@ import CTABanner from "@/components/CTABanner";
 import InvestorAccessSection from "@/components/InvestorAccessSection";
 import ReferralSection from "@/components/ReferralSection";
 import FooterSection from "@/components/FooterSection";
+import NewsletterPopup from "@/components/NewsletterPopup";
 
 const Index = () => {
   return (
     <main className="bg-background min-h-screen">
+      <NewsletterPopup />
       <Navbar />
       <HeroSection />
       <FounderVideoSection />
