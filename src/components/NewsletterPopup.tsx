@@ -76,7 +76,7 @@ const NewsletterPopup = () => {
                   Real estate is a people business.
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-8">
-                  Get honest insights, real conversations and industry knowledge from someone who lives it every day. No spam. Just value. Join free below.
+                  Get honest insights and real conversations. No spam. Just value. Join free below.
                 </p>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                   <input
