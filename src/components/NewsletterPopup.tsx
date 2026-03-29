@@ -92,7 +92,7 @@ const NewsletterPopup = () => {
                   Get honest insights and real conversations. No spam. Just value. Join free below.
                 </p>
                 <p className="text-sm text-muted-foreground/80 leading-relaxed mb-9">
-                  Join free and get access to opportunities and industry conversations from inside The Realty Network.
+                  Get access to opportunities and industry conversations from inside The Realty Network.
                 </p>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                   <input
