@@ -12,7 +12,7 @@ const NewsletterPopup = () => {
   useEffect(() => {
     // Only hide for users who have actually subscribed
     if (localStorage.getItem(SUBSCRIBED_KEY)) return;
-    const timer = setTimeout(() => setVisible(true), 5000);
+    const timer = setTimeout(() => setVisible(true), 25000);
     return () => clearTimeout(timer);
   }, []);
 
