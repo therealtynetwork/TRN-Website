@@ -27,7 +27,7 @@ const FounderVideoSection = () => {
           </div>
           <div className="text-center mt-10">
             <a
-              href="https://calendly.com/jake-therealty-network/30min"
+              href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block border border-border/40 text-foreground font-semibold px-12 py-4 rounded-xl text-sm tracking-[0.1em] uppercase hover:bg-secondary/50 transition-colors duration-300"

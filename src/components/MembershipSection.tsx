@@ -112,7 +112,7 @@ const MembershipSection = () => {
               </p>
             </div>
             <a
-              href="https://calendly.com/jake-therealty-network/30min"
+              href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-4 rounded-xl hover:opacity-90 transition-opacity tracking-[0.1em] uppercase"
@@ -142,7 +142,7 @@ const MembershipSection = () => {
               Full-service global expansion. Hands-on. Done entirely for you.
             </p>
             <a
-              href="https://calendly.com/jake-therealty-network/30min"
+              href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center border border-border/50 text-foreground font-semibold text-sm py-4 rounded-xl hover:bg-secondary/50 transition-colors tracking-[0.1em] uppercase"
