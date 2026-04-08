@@ -65,7 +65,7 @@ const HeroSection = () => {
               Apply for Membership
             </a>
             <a
-              href="https://calendly.com/jake-therealty-network/30min"
+              href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-border/60 text-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:bg-secondary/50 transition-colors"

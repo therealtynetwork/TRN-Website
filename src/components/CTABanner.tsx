@@ -26,7 +26,7 @@ const CTABanner = () => {
             Request Membership Review
           </a>
           <a
-            href="https://calendly.com/jake-therealty-network/30min"
+            href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-border text-foreground font-semibold px-10 py-4 rounded-lg hover:bg-secondary transition-colors"

@@ -222,7 +222,7 @@ const InvestorAccessSection = () => {
                     Thank you. We will review your enquiry and be in touch if there is alignment.
                   </p>
                   <a
-                    href="https://calendly.com/jake-therealty-network/30min"
+                    href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-primary text-primary-foreground font-semibold px-8 py-3 rounded-xl hover:opacity-90 transition-opacity text-sm mb-4"
