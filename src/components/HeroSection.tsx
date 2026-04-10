@@ -1,8 +1,20 @@
 import { motion } from "framer-motion";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
     <header id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-20">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src={heroBg}
+          alt="Luxury real estate property"
+          className="w-full h-full object-cover scale-105"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background" />
+      </div>
+
       <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
         <motion.p
           initial={{ opacity: 0 }}
