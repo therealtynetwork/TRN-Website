@@ -1,17 +1,22 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-const CALENDLY_URL = "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2";
+const CONFIRMATION_PATH = "/apply/confirmation";
 
 const Apply = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://link.msgsndr.com/js/form_embed.js";
     script.async = true;
     document.body.appendChild(script);
 
-    // Listen for form submission message from GHL iframe
+    const redirectToConfirmation = () => {
+      navigate(CONFIRMATION_PATH);
+    };
+
     const handleMessage = (event: MessageEvent) => {
-      // GHL posts messages on form submit — detect and redirect to Calendly
       if (
         event.data &&
         typeof event.data === "object" &&
@@ -19,23 +24,21 @@ const Apply = () => {
           event.data.formSubmitted === true ||
           event.data.action === "formSubmitted")
       ) {
-        window.location.href = CALENDLY_URL;
+        redirectToConfirmation();
       }
 
-      // Also handle string-based messages
       if (
         typeof event.data === "string" &&
         (event.data.includes("formSubmit") ||
           event.data.includes("form_submitted") ||
           event.data.includes("thank"))
       ) {
-        window.location.href = CALENDLY_URL;
+        redirectToConfirmation();
       }
     };
 
     window.addEventListener("message", handleMessage);
 
-    // Fallback: watch for iframe URL changes (navigation to thank-you page)
     const checkInterval = setInterval(() => {
       try {
         const iframe = document.getElementById(
@@ -45,10 +48,8 @@ const Apply = () => {
           // Cross-origin will throw — that's expected on redirect
         }
       } catch {
-        // If we get a cross-origin error after being same-origin,
-        // the form likely navigated — redirect to Calendly
         clearInterval(checkInterval);
-        window.location.href = CALENDLY_URL;
+        redirectToConfirmation();
       }
     }, 1000);
 
@@ -57,7 +58,7 @@ const Apply = () => {
       window.removeEventListener("message", handleMessage);
       clearInterval(checkInterval);
     };
-  }, []);
+  }, [navigate]);
 
   return (
     <main className="bg-background min-h-screen flex items-center justify-center px-4 py-12">
