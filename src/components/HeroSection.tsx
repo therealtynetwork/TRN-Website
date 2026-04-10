@@ -42,7 +42,7 @@ const HeroSection = () => {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-sans"
         >
-          The Realty Network is a private global membership community for real estate professionals who are serious about growing. One introduction from the right person can be worth more than years of working alone.
+          The Realty Network is a private global membership for real estate professionals who are serious about growing.
         </motion.p>
 
         <motion.div
