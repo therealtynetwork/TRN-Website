@@ -18,7 +18,7 @@ const WhatIsTRNSection = () => {
             What Is TRN
           </h2>
           <p className="text-muted-foreground text-base md:text-lg leading-[1.9] max-w-2xl mx-auto">
-            The Realty Network is a private membership community connecting serious real estate professionals across borders. The right people, in the right markets, at the right time. One introduction can change the trajectory of an entire year.
+            The Realty Network is a private membership connecting serious real estate professionals across borders. The right people, in the right markets, at the right time. One introduction can change the trajectory of an entire year.
           </p>
           <p className="text-foreground text-base md:text-lg font-medium mt-8 leading-relaxed">
             The client does not stay local. Neither should the agent.

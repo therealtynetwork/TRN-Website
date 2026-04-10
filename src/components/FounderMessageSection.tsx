@@ -54,7 +54,7 @@ const FounderMessageSection = () => {
                 That is what TRN exists to create. Not a platform. Not a directory. A real network of professionals who back each other, refer to each other, and grow together across borders.
               </p>
               <p className="text-neutral-800 font-serif text-xl md:text-2xl leading-[1.6] font-medium">
-                Every member who joins now is helping build the foundation of something much bigger than a community."
+                Every member who joins now is helping build the foundation of something much bigger than a network."
               </p>
             </div>
 
