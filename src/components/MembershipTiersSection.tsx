@@ -12,7 +12,7 @@ const tiers = [
     benefits: [
       "Access to the private global network",
       "Targeted leads in your specific zone",
-      "Private community and group discussions",
+      "Private network and group discussions",
       "Access to expert partners (legal, relocation, wealth)",
       "Monthly network calls and market insights",
       "Personal onboarding call with the founder",
