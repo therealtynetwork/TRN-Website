@@ -3,7 +3,7 @@ import jakeFounder from "@/assets/jake-founder.jpg";
 
 const FounderMessageSection = () => {
   return (
-    <section className="bg-white py-20 md:py-28 px-6 md:px-12 lg:px-20">
+    <section className="py-20 md:py-28 px-6 md:px-12 lg:px-20" style={{ backgroundColor: '#ffffff' }}>
       <div className="max-w-5xl mx-auto">
         <motion.p
           initial={{ opacity: 0 }}
