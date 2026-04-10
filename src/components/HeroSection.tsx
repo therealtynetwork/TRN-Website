@@ -49,7 +49,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.7 }}
-          className="flex flex-col items-center gap-6"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
             href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
