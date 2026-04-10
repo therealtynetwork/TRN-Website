@@ -30,7 +30,7 @@ const WhoThisIsForSection = () => {
             TRN is for the agent, the broker, the investor and the developer who is hungry. Not the one waiting for the phone to ring. The one already dialling.
           </p>
           <p>
-            There is no discrimination here. If you are self-employed, ambitious and looking for that extra deal, that extra connection or simply a better way to serve your clients globally, you belong inside TRN.
+            If you are ambitious and looking for that extra deal, that extra connection or simply a better way to serve your clients globally, you belong inside TRN.
           </p>
           <p className="text-foreground font-medium">
             One referral from the right person can be worth more than years of the membership. That is not a line. It has already happened.
