@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Ciaran Branigan",
     location: "Dubai, UAE",
-    quote: "I had a client relocating to Thailand and needed someone on the ground I could actually trust. Within a day of posting in TRN, Jake connected me with a vetted agent out there who knew exactly what my client needed. Deal done, client happy, and I have a solid contact for life now. This is what a real network looks like.",
+    quote: "I needed property advice about Thailand for a client and had no contacts out there at all. Posted in TRN and within a day Jake connected me with a vetted agent on the ground who gave my client exactly the guidance they needed. Now I have a trusted contact in Thailand for life. That alone made joining worth it.",
   },
   {
     name: "David Briceag",
@@ -24,8 +24,8 @@ const testimonials = [
   },
   {
     name: "Luca Caliendo",
-    location: "Malta (Investor)",
-    quote: "I am not an agent, I am an investor. I was living in London and wanted to relocate to Malta for tax reasons. I found TRN online, reached out, and Jake personally walked me through everything I needed. He connected me with the right people on the ground and my move was seamless. Best part is it cost me nothing. Cannot recommend this enough.",
+    location: "Malta",
+    quote: "I am not an agent. I am self employed and was living in London looking to relocate to Malta for tax purposes. I needed proper advice on the whole process and found TRN online. Jake took the time to understand what I needed and connected me with the right professionals on the ground. Everything from tax guidance to finding a place to live was sorted. The whole thing was free and genuinely made my relocation stress free.",
   },
 ];
 
