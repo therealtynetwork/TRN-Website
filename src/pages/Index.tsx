@@ -1,20 +1,13 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import FounderVideoSection from "@/components/FounderVideoSection";
-import SocialProofSection from "@/components/SocialProofSection";
-import BeliefSection from "@/components/BeliefSection";
-
-import FeaturesSection from "@/components/FeaturesSection";
-
-import FounderSection from "@/components/FounderSection";
-
-import TestimonialsSection from "@/components/TestimonialsSection";
-import MemberAdvantagesSection from "@/components/MemberAdvantagesSection";
-import MembershipSection from "@/components/MembershipSection";
-import FAQSection from "@/components/FAQSection";
-import CTABanner from "@/components/CTABanner";
-import InvestorAccessSection from "@/components/InvestorAccessSection";
-import ReferralSection from "@/components/ReferralSection";
+import WhatIsTRNSection from "@/components/WhatIsTRNSection";
+import WhoThisIsForSection from "@/components/WhoThisIsForSection";
+import WhatYouGetSection from "@/components/WhatYouGetSection";
+import NetworkInActionSection from "@/components/NetworkInActionSection";
+import WhereThisIsGoingSection from "@/components/WhereThisIsGoingSection";
+import FounderMessageSection from "@/components/FounderMessageSection";
+import BuiltOnFoundationsSection from "@/components/BuiltOnFoundationsSection";
+import ClosingCTASection from "@/components/ClosingCTASection";
 import FooterSection from "@/components/FooterSection";
 import NewsletterPopup from "@/components/NewsletterPopup";
 
@@ -24,21 +17,14 @@ const Index = () => {
       <NewsletterPopup />
       <Navbar />
       <HeroSection />
-      <FounderVideoSection />
-      <SocialProofSection />
-      <BeliefSection />
-      
-      <FeaturesSection />
-      
-      <FounderSection />
-      
-      <TestimonialsSection />
-      <MemberAdvantagesSection />
-      <MembershipSection />
-      
-      <InvestorAccessSection />
-      <FAQSection />
-      <ReferralSection />
+      <WhatIsTRNSection />
+      <WhoThisIsForSection />
+      <WhatYouGetSection />
+      <NetworkInActionSection />
+      <WhereThisIsGoingSection />
+      <FounderMessageSection />
+      <BuiltOnFoundationsSection />
+      <ClosingCTASection />
       <FooterSection />
     </main>
   );

@@ -1,33 +1,18 @@
-
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <header id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img
-          src={heroBg}
-          alt="Luxury real estate property"
-          className="w-full h-full object-cover scale-105"
-          loading="eager"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background" />
-      </div>
-
+    <header id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-20">
       <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
-        {/* Eyebrow */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 1 }}
-          className="text-xs tracking-[0.35em] uppercase text-muted-foreground mb-8"
+          className="text-xs tracking-[0.35em] uppercase text-primary mb-8"
         >
           Private Global Network
         </motion.p>
 
-        {/* Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,37 +30,23 @@ const HeroSection = () => {
           transition={{ delay: 0.7, duration: 0.8 }}
           className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-sans"
         >
-          TRN is a private global referral infrastructure built to ensure relationships compound, not reset, when clients move across borders.
+          The Realty Network is a private global membership community for real estate professionals who are serious about growing. If you are still relying only on your local market, you are leaving deals, referrals and relationships on the table every single day.
         </motion.p>
 
-        {/* CTAs */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.7 }}
           className="flex flex-col items-center gap-6"
         >
-          <div className="flex flex-col sm:flex-row items-center gap-4">
-            <a
-              href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
-            >
-              Apply for Membership
-            </a>
-            <a
-              href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-border/60 text-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:bg-secondary/50 transition-colors"
-            >
-              Book a Call
-            </a>
-          </div>
-          <p className="text-[11px] text-muted-foreground/40 tracking-[0.3em] uppercase">
-            Built for long-term operators.
-          </p>
+          <a
+            href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
+          >
+            Apply for Membership
+          </a>
         </motion.div>
       </div>
 
