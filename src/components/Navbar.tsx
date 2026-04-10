@@ -6,11 +6,9 @@ import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Infrastructure", href: "#benefits" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Advantages", href: "#advantages" },
+  { label: "Benefits", href: "#benefits" },
+  { label: "Network", href: "#testimonials" },
   { label: "Membership", href: "#membership" },
-  { label: "Investors", href: "#investor-access" },
 ];
 
 const Navbar = () => {
@@ -24,7 +22,6 @@ const Navbar = () => {
           TRN<span className="text-primary">.</span>
         </Link>
 
-        {/* Desktop */}
         <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <a
@@ -45,7 +42,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-foreground"
@@ -55,7 +51,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {open && (
           <motion.div
