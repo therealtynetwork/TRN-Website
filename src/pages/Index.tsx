@@ -4,6 +4,8 @@ import WhatIsTRNSection from "@/components/WhatIsTRNSection";
 import WhoThisIsForSection from "@/components/WhoThisIsForSection";
 import WhatYouGetSection from "@/components/WhatYouGetSection";
 import NetworkInActionSection from "@/components/NetworkInActionSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import MembershipTiersSection from "@/components/MembershipTiersSection";
 import WhereThisIsGoingSection from "@/components/WhereThisIsGoingSection";
 import FounderMessageSection from "@/components/FounderMessageSection";
 import BuiltOnFoundationsSection from "@/components/BuiltOnFoundationsSection";
@@ -21,6 +23,8 @@ const Index = () => {
       <WhoThisIsForSection />
       <WhatYouGetSection />
       <NetworkInActionSection />
+      <TestimonialsSection />
+      <MembershipTiersSection />
       <WhereThisIsGoingSection />
       <FounderMessageSection />
       <BuiltOnFoundationsSection />

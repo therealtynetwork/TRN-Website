@@ -9,12 +9,12 @@ const stories = [
   {
     location: "Florida Investment Deal",
     description:
-      "Jake personally connected an active investor with a TRN member in Florida. One introduction. One live opportunity.",
+      "An active investor was connected with a TRN member in Florida through the network. One introduction. One live opportunity.",
   },
   {
     location: "Dubai to the Philippines",
     description:
-      "A TRN member in Dubai needed a trusted agent in the Philippines. Jake made the connection directly. Cross-continent, same day.",
+      "A TRN member in Dubai needed a trusted agent in the Philippines. The connection was made directly through the network. Cross-continent, same day.",
   },
   {
     location: "Full Relocation Support",
