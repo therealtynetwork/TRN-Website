@@ -29,11 +29,8 @@ const WhoThisIsForSection = () => {
           <p>
             TRN is for the agent, broker, investor or developer who wish to be connected.
           </p>
-          <p>
-            If you are ambitious and looking for that extra deal, that extra connection or simply a better way to serve your clients globally, you belong inside TRN.
-          </p>
           <p className="text-foreground font-medium">
-            One referral from the right person can be worth more than years of the membership. That is not a line. It has already happened.
+            Introductions happen when you're in the right room.
           </p>
         </motion.div>
       </div>
