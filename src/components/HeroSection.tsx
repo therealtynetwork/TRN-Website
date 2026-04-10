@@ -59,6 +59,14 @@ const HeroSection = () => {
           >
             Apply for Membership
           </a>
+          <a
+            href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-primary/40 text-primary font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:bg-primary/10 transition-all"
+          >
+            Book a Free Call
+          </a>
         </motion.div>
       </div>
 

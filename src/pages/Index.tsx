@@ -6,7 +6,7 @@ import WhatYouGetSection from "@/components/WhatYouGetSection";
 import NetworkInActionSection from "@/components/NetworkInActionSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import MembershipTiersSection from "@/components/MembershipTiersSection";
-import WhereThisIsGoingSection from "@/components/WhereThisIsGoingSection";
+import InvestorAccessSection from "@/components/InvestorAccessSection";
 import FounderMessageSection from "@/components/FounderMessageSection";
 import BuiltOnFoundationsSection from "@/components/BuiltOnFoundationsSection";
 import ClosingCTASection from "@/components/ClosingCTASection";
@@ -25,7 +25,7 @@ const Index = () => {
       <NetworkInActionSection />
       <TestimonialsSection />
       <MembershipTiersSection />
-      <WhereThisIsGoingSection />
+      <InvestorAccessSection />
       <FounderMessageSection />
       <BuiltOnFoundationsSection />
       <ClosingCTASection />
