@@ -1,35 +1,31 @@
 import { motion } from "framer-motion";
+import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Mitchell",
+    name: "Ciaran Branigan",
     location: "Dubai, UAE",
-    quote: "Within my first month inside TRN, I received a referral from a member in Portugal that turned into a six-figure deal. That single introduction paid for years of membership.",
+    quote: "I had a client relocating to Thailand and needed someone on the ground I could actually trust. Within a day of posting in TRN, Jake connected me with a vetted agent out there who knew exactly what my client needed. Deal done, client happy, and I have a solid contact for life now. This is what a real network looks like.",
   },
   {
-    name: "Carlos Mendes",
-    location: "Lisbon, Portugal",
-    quote: "TRN gave me access to markets I never would have reached on my own. I have closed three cross-border deals this year, all through introductions made inside the network.",
+    name: "David Briceag",
+    location: "Portugal",
+    quote: "One of my clients owned a property in South Africa and honestly, before TRN I would have had no idea how to help them. But I reached out inside the network, got connected with Taylor in Johannesburg and we handled the whole thing together. My client could not believe I had someone there. That is the power of this.",
   },
   {
-    name: "Emma Chen",
-    location: "Sydney, Australia",
-    quote: "The leads alone made this worthwhile, but what really changed things was the relationships. Having a trusted contact in every major market has completely transformed how I serve my clients.",
-  },
-  {
-    name: "David Okoro",
+    name: "Taylor Davidson",
     location: "Johannesburg, South Africa",
-    quote: "I joined TRN as a solo agent in a competitive market. Within six months I had referral partners across three continents. The network is the real deal.",
+    quote: "David reached out about a listing in my area through TRN and it turned into a proper working relationship. I got a quality lead from someone I had never met, on the other side of the world, and it just worked. No awkward introductions, no guessing. The trust is already built because everyone in here is vetted.",
   },
   {
-    name: "Rachel Foster",
-    location: "Miami, USA",
-    quote: "The accountability inside TRN pushed me to levels I would not have reached alone. This is not just a network. It is a room full of people who genuinely want to see you win.",
+    name: "Shayla Twit",
+    location: "Florida, USA",
+    quote: "There was an investor in the network looking to put money into Florida and Jake passed them directly to me. We are now actively working on multiple potential deals together. I never expected to get warm investor leads handed to me like that. TRN has genuinely changed how I think about where my next deal is coming from.",
   },
   {
-    name: "James Hartley",
-    location: "London, UK",
-    quote: "I have been part of multiple real estate groups before. None of them come close to TRN. The quality of connections and the way deals actually move through the network is unlike anything else.",
+    name: "Luca Caliendo",
+    location: "Malta (Investor)",
+    quote: "I am not an agent, I am an investor. I was living in London and wanted to relocate to Malta for tax reasons. I found TRN online, reached out, and Jake personally walked me through everything I needed. He connected me with the right people on the ground and my move was seamless. Best part is it cost me nothing. Cannot recommend this enough.",
   },
 ];
 
@@ -45,10 +41,10 @@ const TestimonialsSection = () => {
           className="text-center mb-16"
         >
           <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">
-            Member Testimonials
+            Member Reviews
           </p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.15]">
-            What Members Are Saying
+            Straight From the Members
           </h2>
         </motion.div>
 
@@ -62,6 +58,11 @@ const TestimonialsSection = () => {
               transition={{ delay: i * 0.06, duration: 0.7 }}
               className="glass-card p-8"
             >
+              <div className="flex gap-0.5 mb-4">
+                {[...Array(5)].map((_, s) => (
+                  <Star key={s} className="w-3.5 h-3.5 fill-primary text-primary" />
+                ))}
+              </div>
               <p className="text-muted-foreground text-sm leading-[1.9] mb-6">
                 "{t.quote}"
               </p>

@@ -49,7 +49,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.7 }}
-          className="flex flex-col items-center gap-6"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
             href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
@@ -58,6 +58,14 @@ const HeroSection = () => {
             className="bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
           >
             Apply for Membership
+          </a>
+          <a
+            href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-primary/40 text-primary font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:bg-primary/10 transition-all"
+          >
+            Book a Free Call
           </a>
         </motion.div>
       </div>
