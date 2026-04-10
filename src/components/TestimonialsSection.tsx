@@ -31,7 +31,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="section-padding">
+    <section id="testimonials" className="section-padding">
       <div className="max-w-5xl mx-auto border-t border-primary/20 pt-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
