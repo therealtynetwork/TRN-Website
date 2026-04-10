@@ -1,6 +1,7 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
-const CALENDLY_URL = "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2";
+const CONFIRMATION_PATH = "/apply/confirmation";
 
 const Apply = () => {
   useEffect(() => {
