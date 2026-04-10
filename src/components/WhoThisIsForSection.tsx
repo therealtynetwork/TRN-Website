@@ -27,7 +27,7 @@ const WhoThisIsForSection = () => {
           className="space-y-6 text-muted-foreground text-base md:text-lg leading-[1.9]"
         >
           <p>
-            TRN is for the agent, the broker, the investor and the developer who is hungry. Not the one waiting for the phone to ring. The one already dialling.
+            TRN is for the agent who is hungry and who wishes to be connected. Not the one waiting for the phone to ring. The one already dialling.
           </p>
           <p>
             If you are ambitious and looking for that extra deal, that extra connection or simply a better way to serve your clients globally, you belong inside TRN.
