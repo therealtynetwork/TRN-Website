@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import WhatIsTRNSection from "@/components/WhatIsTRNSection";
 import WhoThisIsForSection from "@/components/WhoThisIsForSection";
 import WhatYouGetSection from "@/components/WhatYouGetSection";
-import NetworkInActionSection from "@/components/NetworkInActionSection";
+
 import TestimonialsSection from "@/components/TestimonialsSection";
 import MembershipTiersSection from "@/components/MembershipTiersSection";
 import InvestorAccessSection from "@/components/InvestorAccessSection";
@@ -22,7 +22,7 @@ const Index = () => {
       <WhatIsTRNSection />
       <WhoThisIsForSection />
       <WhatYouGetSection />
-      <NetworkInActionSection />
+      
       <TestimonialsSection />
       <MembershipTiersSection />
       <InvestorAccessSection />
