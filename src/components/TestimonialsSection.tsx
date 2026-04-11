@@ -5,12 +5,12 @@ const testimonials = [
   {
     name: "Ciaran Branigan",
     location: "Dubai, UAE",
-    quote: "Had a client asking about Thailand and I had zero contacts there. Posted in TRN, Jake connected me with a vetted agent within a day. Sorted. Now I have a go-to person in Thailand whenever I need one.",
+    quote: "Needed property information about Thailand. Posted in TRN, Jake connected me with a vetted agent within a day. Sorted. Now I have a go-to person in Thailand whenever I need one.",
   },
   {
     name: "David Briceag",
     location: "Portugal",
-    quote: "Client had a property in South Africa and honestly I had no clue how to help. Reached out in the network, got connected with Taylor in Joburg and we handled the whole thing together. My client could not believe I had someone out there.",
+    quote: "Previously I would have never thought I would be able to help my client in Portugal but now through TRN I was able to connect my client to a vetted agent in South Africa. My client could not believe I had someone out there.",
   },
   {
     name: "Taylor Davidson",
@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: "Shayla Twit",
     location: "Florida, USA",
-    quote: "Jake passed me an investor from inside the network looking to put money into Florida. We are now working on multiple deals together. I did not expect warm leads like that just handed to me.",
+    quote: "Jake passed me an investor from inside the network looking to put money into Florida. We are now working on multiple deals together.",
   },
   {
     name: "Luca Caliendo",
