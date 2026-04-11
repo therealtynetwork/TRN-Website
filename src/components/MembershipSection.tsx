@@ -45,7 +45,7 @@ const MembershipSection = () => {
           viewport={{ once: true }}
           className="text-center text-[10px] text-primary/60 tracking-[0.3em] uppercase mb-16"
         >
-          If you are serious about growing, there is a place for you here
+          If you are serious about growing, TRN is the place for you
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-5">
