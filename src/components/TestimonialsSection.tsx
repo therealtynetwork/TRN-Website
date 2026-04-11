@@ -5,27 +5,27 @@ const testimonials = [
   {
     name: "Ciaran Branigan",
     location: "Dubai, UAE",
-    quote: "I needed property advice about Thailand for a client and had no contacts out there at all. Posted in TRN and within a day Jake connected me with a vetted agent on the ground who gave my client exactly the guidance they needed. Now I have a trusted contact in Thailand for life. That alone made joining worth it.",
+    quote: "Had a client asking about Thailand and I had zero contacts there. Posted in TRN, Jake connected me with a vetted agent within a day. Sorted. Now I have a go-to person in Thailand whenever I need one.",
   },
   {
     name: "David Briceag",
     location: "Portugal",
-    quote: "One of my clients owned a property in South Africa and honestly, before TRN I would have had no idea how to help them. But I reached out inside the network, got connected with Taylor in Johannesburg and we handled the whole thing together. My client could not believe I had someone there. That is the power of this.",
+    quote: "Client had a property in South Africa and honestly I had no clue how to help. Reached out in the network, got connected with Taylor in Joburg and we handled the whole thing together. My client could not believe I had someone out there.",
   },
   {
     name: "Taylor Davidson",
     location: "Johannesburg, South Africa",
-    quote: "David reached out about a listing in my area through TRN and it turned into a proper working relationship. I got a quality lead from someone I had never met, on the other side of the world, and it just worked. No awkward introductions, no guessing. The trust is already built because everyone in here is vetted.",
+    quote: "David messaged me through TRN about a listing in my area. Never met the guy. Turned into a proper working relationship. The trust is already there because everyone in here has been vetted.",
   },
   {
     name: "Shayla Twit",
     location: "Florida, USA",
-    quote: "There was an investor in the network looking to put money into Florida and Jake passed them directly to me. We are now actively working on multiple potential deals together. I never expected to get warm investor leads handed to me like that. TRN has genuinely changed how I think about where my next deal is coming from.",
+    quote: "Jake passed me an investor from inside the network looking to put money into Florida. We are now working on multiple deals together. I did not expect warm leads like that just handed to me.",
   },
   {
     name: "Luca Caliendo",
     location: "Malta",
-    quote: "I am not an agent. I am self employed and was living in London looking to relocate to Malta for tax purposes. I needed proper advice on the whole process and found TRN online. Jake took the time to understand what I needed and connected me with the right professionals on the ground. Everything from tax guidance to finding a place to live was sorted. The whole thing was free and genuinely made my relocation stress free.",
+    quote: "I am not an agent. I was relocating from London to Malta and needed proper advice on tax, housing, everything. Jake took the time to connect me with the right people on the ground. Made the whole move stress free.",
   },
 ];
 

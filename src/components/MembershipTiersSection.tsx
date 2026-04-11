@@ -1,40 +1,18 @@
 import { motion } from "framer-motion";
-import { Check } from "lucide-react";
 
 const tiers = [
   {
     name: "Member",
     subtitle: "For agents ready to grow globally",
-    requirements: [
-      "Active real estate professional",
-      "Application and short interview",
-    ],
-    benefits: [
-      "Access to the private global network",
-      "Targeted leads in your specific zone",
-      "Private network and group discussions",
-      "Access to expert partners (legal, relocation, wealth)",
-      "Monthly network calls and market insights",
-      "Personal onboarding call with the founder",
-    ],
+    description:
+      "You get access to a private global network of vetted real estate professionals, with leads directed to your specific zone and market. From your first day you are personally onboarded by the founder, connected to expert partners across legal, relocation and wealth, and plugged into monthly calls where real insight is shared. This is not a directory. It is a room you are invited into.",
     featured: false,
   },
   {
     name: "Member+",
     subtitle: "For serious operators who want more",
-    requirements: [
-      "Proven track record in real estate",
-      "Interview with the founder",
-      "Committed to active participation",
-    ],
-    benefits: [
-      "Everything in Member, plus:",
-      "Done-for-you outreach to your target audience",
-      "Priority access to investor introductions",
-      "Early access to the TRN Property Portal",
-      "VIP access to future in-person events",
-      "Direct advisory support from the founder",
-    ],
+    description:
+      "Everything in Member, taken further. You receive done-for-you outreach to your exact target audience, priority introductions to active investors, and early access to the TRN Property Portal before it opens to anyone else. You are first in line for in-person events and you work directly with the founder on your growth. This tier is for the people who do not just want to be in the room. They want to run it.",
     featured: true,
   },
 ];
@@ -54,7 +32,7 @@ const MembershipTiersSection = () => {
             Membership Tiers
           </p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.15]">
-            Choose Your Level
+            Membership
           </h2>
         </motion.div>
 
@@ -75,33 +53,9 @@ const MembershipTiersSection = () => {
                 {tier.subtitle}
               </p>
 
-              <div className="mb-8">
-                <p className="text-foreground text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-                  Requirements
-                </p>
-                <ul className="space-y-2.5">
-                  {tier.requirements.map((req, j) => (
-                    <li key={j} className="flex items-start gap-3 text-muted-foreground text-sm leading-relaxed">
-                      <span className="w-1 h-1 rounded-full bg-primary mt-2 shrink-0" />
-                      {req}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="mb-8">
-                <p className="text-foreground text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-                  Benefits
-                </p>
-                <ul className="space-y-2.5">
-                  {tier.benefits.map((b, j) => (
-                    <li key={j} className="flex items-start gap-3 text-muted-foreground text-sm leading-relaxed">
-                      <Check className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                      {b}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <p className="text-muted-foreground text-sm leading-[1.9] mb-10">
+                {tier.description}
+              </p>
 
               <a
                 href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
