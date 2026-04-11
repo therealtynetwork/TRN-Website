@@ -30,7 +30,7 @@ const WhoThisIsForSection = () => {
             TRN is for the agent, broker, investor or developer who wish to be connected internationally.
           </p>
           <p>
-            If you are part of the real estate industry, ambitious and understand the value of networking, and simply want a better way to serve your clients globally, you belong inside TRN.
+            If you are part of the real estate industry, ambitious and understand the value of networking, and simply want a better way to serve your clients globally, whilst also receiving clients in your zone, you belong inside TRN.
           </p>
           <p className="text-foreground font-medium">
             Introductions happen once you're in the right room.
