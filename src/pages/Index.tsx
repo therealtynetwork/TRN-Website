@@ -27,6 +27,7 @@ const Index = () => {
       <TestimonialsSection />
       <MembershipTiersSection />
       <InvestorAccessSection />
+      <FounderVideoSection />
       <FounderMessageSection />
       
       <ClosingCTASection />
