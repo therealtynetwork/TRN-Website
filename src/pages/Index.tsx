@@ -20,6 +20,7 @@ const Index = () => {
       <NewsletterPopup />
       <Navbar />
       <HeroSection />
+      <FounderVideoSection />
       <WhatIsTRNSection />
       <WhoThisIsForSection />
       <WhatYouGetSection />
@@ -27,7 +28,6 @@ const Index = () => {
       <TestimonialsSection />
       <MembershipTiersSection />
       <InvestorAccessSection />
-      <FounderVideoSection />
       <FounderMessageSection />
       
       <ClosingCTASection />
