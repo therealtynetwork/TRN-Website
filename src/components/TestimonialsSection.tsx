@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Ciaran Branigan",
     location: "Dubai, UAE",
-    quote: "Needed property information about Thailand. Posted in TRN, Jake connected me with a vetted agent within a day. Sorted. Now I have a go-to person in Thailand whenever I need one.",
+    quote: "Needed information regarding property in Thailand. Posted in TRN, Jake connected me with a vetted agent within a day. Sorted. Now I have a go-to person in Thailand whenever I need one.",
   },
   {
     name: "David Briceag",
