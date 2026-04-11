@@ -27,7 +27,7 @@ const WhoThisIsForSection = () => {
           className="space-y-6 text-muted-foreground text-base md:text-lg leading-[1.9]"
         >
           <p>
-            TRN is for the agent, broker, investor or developer who wish to be connected.
+            TRN is for the agent, broker, investor or developer who wish to be connected internationally.
           </p>
           <p>
             If you are ambitious and looking for that extra deal, that extra connection or simply a better way to serve your clients globally, you belong inside TRN.
