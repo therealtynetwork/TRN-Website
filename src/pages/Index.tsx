@@ -5,7 +5,7 @@ import WhoThisIsForSection from "@/components/WhoThisIsForSection";
 import WhatYouGetSection from "@/components/WhatYouGetSection";
 
 import TestimonialsSection from "@/components/TestimonialsSection";
-import MembershipTiersSection from "@/components/MembershipTiersSection";
+import MembershipSection from "@/components/MembershipSection";
 import InvestorAccessSection from "@/components/InvestorAccessSection";
 import FounderMessageSection from "@/components/FounderMessageSection";
 import FounderVideoSection from "@/components/FounderVideoSection";
@@ -26,7 +26,7 @@ const Index = () => {
       <WhatYouGetSection />
       
       <TestimonialsSection />
-      <MembershipTiersSection />
+      <MembershipSection />
       <InvestorAccessSection />
       <FounderMessageSection />
       
