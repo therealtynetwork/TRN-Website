@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import MembershipTiersSection from "@/components/MembershipTiersSection";
 import InvestorAccessSection from "@/components/InvestorAccessSection";
 import FounderMessageSection from "@/components/FounderMessageSection";
+import FounderVideoSection from "@/components/FounderVideoSection";
 
 import ClosingCTASection from "@/components/ClosingCTASection";
 import FooterSection from "@/components/FooterSection";
@@ -26,6 +27,7 @@ const Index = () => {
       <TestimonialsSection />
       <MembershipTiersSection />
       <InvestorAccessSection />
+      <FounderVideoSection />
       <FounderMessageSection />
       
       <ClosingCTASection />
