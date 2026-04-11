@@ -15,7 +15,7 @@ const WhatIsTRNSection = () => {
             The Foundation
           </p>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-10 leading-[1.15]">
-            What Is TRN
+            Why Join TRN
           </h2>
           <p className="text-muted-foreground text-base md:text-lg leading-[1.9] max-w-2xl mx-auto">
             The Realty Network is a private membership connecting serious real estate professionals across borders. The right people, in the right markets, at the right time. One introduction can change the trajectory of an entire year.

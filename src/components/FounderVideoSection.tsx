@@ -30,7 +30,7 @@ const FounderVideoSection = () => {
               href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-border/40 text-foreground font-semibold px-12 py-4 rounded-xl text-sm tracking-[0.1em] uppercase hover:bg-secondary/50 transition-colors duration-300"
+              className="inline-block bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-xl text-sm tracking-[0.1em] uppercase hover:bg-primary/90 transition-colors duration-300"
             >
               Book a Call
             </a>
