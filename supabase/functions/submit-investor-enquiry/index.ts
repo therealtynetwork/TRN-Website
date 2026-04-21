@@ -11,6 +11,14 @@ Deno.serve(async (req) => {
     return new Response(null, { headers: corsHeaders });
   }
 
+  const esc = (s: string) =>
+    String(s ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+
   try {
     const body = await req.json();
     const { name, email, country, budget, markets, investmentType, message, referredBy } = body;
@@ -58,17 +66,17 @@ Deno.serve(async (req) => {
           body: JSON.stringify({
             from: "TRN Investors <onboarding@resend.dev>",
             to: ["jake@therealty-network.com"],
-            subject: `New Investor Enquiry: ${name} (${country})`,
+            subject: `New Investor Enquiry: ${String(name).slice(0, 100)} (${String(country).slice(0, 100)})`,
             html: `
               <h2>New Investor Enquiry</h2>
-              <p><strong>Name:</strong> ${name}</p>
-              <p><strong>Email:</strong> ${email}</p>
-              <p><strong>Country:</strong> ${country}</p>
-              <p><strong>Budget:</strong> ${budget}</p>
-              <p><strong>Markets:</strong> ${markets}</p>
-              <p><strong>Type:</strong> ${investmentType}</p>
-              <p><strong>Message:</strong> ${message || "N/A"}</p>
-              <p><strong>Referred by:</strong> ${referredBy || "N/A"}</p>
+              <p><strong>Name:</strong> ${esc(name)}</p>
+              <p><strong>Email:</strong> ${esc(email)}</p>
+              <p><strong>Country:</strong> ${esc(country)}</p>
+              <p><strong>Budget:</strong> ${esc(budget)}</p>
+              <p><strong>Markets:</strong> ${esc(markets)}</p>
+              <p><strong>Type:</strong> ${esc(investmentType)}</p>
+              <p><strong>Message:</strong> ${message ? esc(message) : "N/A"}</p>
+              <p><strong>Referred by:</strong> ${referredBy ? esc(referredBy) : "N/A"}</p>
             `,
           }),
         });
