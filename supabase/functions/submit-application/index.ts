@@ -11,6 +11,14 @@ Deno.serve(async (req) => {
     return new Response(null, { headers: corsHeaders });
   }
 
+  const esc = (s: string) =>
+    String(s ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+
   try {
     const body = await req.json();
     const { name, email, country, agency, niche, social, whyJoin, biggestGoal, referredBy } = body;
@@ -59,18 +67,18 @@ Deno.serve(async (req) => {
           body: JSON.stringify({
             from: "TRN Applications <onboarding@resend.dev>",
             to: ["jake@therealty-network.com"],
-            subject: `New TRN Application: ${name} (${country})`,
+            subject: `New TRN Application: ${String(name).slice(0, 100)} (${String(country).slice(0, 100)})`,
             html: `
               <h2>New Application Received</h2>
-              <p><strong>Name:</strong> ${name}</p>
-              <p><strong>Email:</strong> ${email}</p>
-              <p><strong>Country:</strong> ${country}</p>
-              <p><strong>Agency:</strong> ${agency || "N/A"}</p>
-              <p><strong>Niche:</strong> ${niche || "N/A"}</p>
-              <p><strong>Social:</strong> ${social || "N/A"}</p>
-              <p><strong>Why join:</strong> ${whyJoin}</p>
-              <p><strong>Biggest goal:</strong> ${biggestGoal}</p>
-              <p><strong>Referred by:</strong> ${referredBy || "N/A"}</p>
+              <p><strong>Name:</strong> ${esc(name)}</p>
+              <p><strong>Email:</strong> ${esc(email)}</p>
+              <p><strong>Country:</strong> ${esc(country)}</p>
+              <p><strong>Agency:</strong> ${agency ? esc(agency) : "N/A"}</p>
+              <p><strong>Niche:</strong> ${niche ? esc(niche) : "N/A"}</p>
+              <p><strong>Social:</strong> ${social ? esc(social) : "N/A"}</p>
+              <p><strong>Why join:</strong> ${esc(whyJoin)}</p>
+              <p><strong>Biggest goal:</strong> ${esc(biggestGoal)}</p>
+              <p><strong>Referred by:</strong> ${referredBy ? esc(referredBy) : "N/A"}</p>
             `,
           }),
         });
