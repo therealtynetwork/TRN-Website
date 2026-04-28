@@ -67,6 +67,28 @@ const NetworkAdvisorsSection = () => {
           </div>
         </article>
 
+        {/* Investor access block */}
+        <article className="relative bg-[#1A1A1A] rounded-2xl overflow-hidden border border-border/30 max-w-2xl mx-auto mt-10 md:mt-12">
+          <div className="absolute top-0 left-0 right-0 h-[2px] bg-primary" />
+          <div className="p-8 md:p-12 text-center">
+            <p className="text-primary text-[10px] md:text-[11px] font-semibold tracking-[0.25em] uppercase mb-5">
+              Investor Access
+            </p>
+            <h3 className="font-serif font-bold text-2xl md:text-3xl lg:text-4xl text-foreground mb-6">
+              Looking for any of these services?
+            </h3>
+            <p className="text-muted-foreground text-[15px] md:text-base leading-relaxed font-light max-w-xl mx-auto mb-8">
+              Investors and private clients who require access to any of the services within the TRN advisor network are welcome to reach out. We will personally review the request and connect you with the right advisor based on your needs.
+            </p>
+            <a
+              href="mailto:jake@therealty-network.com?subject=Request%20an%20Introduction"
+              className="inline-block border border-primary text-primary text-[11px] font-semibold tracking-[0.25em] uppercase px-8 py-4 rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
+            >
+              Request an Introduction
+            </a>
+          </div>
+        </article>
+
         {/* Closing line */}
         <p className="text-center font-serif italic text-primary text-lg md:text-xl mt-16 md:mt-20 max-w-2xl mx-auto leading-relaxed">
           More advisors are being added across the network. Every name here is by invitation only.
