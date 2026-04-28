@@ -9,6 +9,7 @@ import MembershipSection from "@/components/MembershipSection";
 import InvestorAccessSection from "@/components/InvestorAccessSection";
 import FounderMessageSection from "@/components/FounderMessageSection";
 import FounderVideoSection from "@/components/FounderVideoSection";
+import NetworkAdvisorsSection from "@/components/NetworkAdvisorsSection";
 
 import ClosingCTASection from "@/components/ClosingCTASection";
 import FooterSection from "@/components/FooterSection";
@@ -27,6 +28,7 @@ const Index = () => {
       
       <TestimonialsSection />
       <MembershipSection />
+      <NetworkAdvisorsSection />
       <InvestorAccessSection />
       <FounderMessageSection />
       
