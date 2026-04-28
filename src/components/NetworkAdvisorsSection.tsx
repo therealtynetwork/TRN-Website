@@ -33,11 +33,11 @@ const NetworkAdvisorsSection = () => {
           <div className="grid md:grid-cols-[280px_1fr] lg:grid-cols-[340px_1fr] gap-8 md:gap-12 p-8 md:p-12">
             {/* Photo */}
             <div className="relative">
-              <div className="aspect-[4/5] overflow-hidden rounded-xl bg-secondary">
+              <div className="aspect-[4/5] overflow-hidden rounded-xl bg-secondary flex items-center justify-center">
                 <img
                   src={kevinPhoto}
                   alt="Kevin Cassar, Wealth Management and Relocation Advisor"
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-contain"
                   loading="lazy"
                 />
               </div>
