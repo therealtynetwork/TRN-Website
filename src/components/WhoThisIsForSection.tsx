@@ -27,10 +27,10 @@ const WhoThisIsForSection = () => {
           className="space-y-6 text-muted-foreground text-base md:text-lg leading-[1.9]"
         >
           <p>
-            TRN is for the agent, broker, investor or developer who wish to be connected internationally.
+            TRN serves two audiences. The first is real estate agents and brokers who want more deals, global reach and additional income streams beyond the transaction.
           </p>
           <p>
-            If you are part of the real estate industry, ambitious and understand the value of networking, and simply want a better way to serve your clients globally, whilst also receiving clients in your zone, you belong inside TRN.
+            The second is HNW individuals and global investors who can access a free consultation with any of our specialists, including wealth management, currency exchange, outreach support and relocation guidance. TRN is their one stop hub for any cross border property move.
           </p>
           <p className="text-foreground font-medium">
             Introductions happen once you're in the right room.

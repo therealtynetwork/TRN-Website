@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Globe, Target, Mic, Repeat, MapPin, BarChart3 } from "lucide-react";
+import { Globe, Target, Mic, Repeat, MapPin, BarChart3, Send, Briefcase, Coins } from "lucide-react";
 
 const features = [
   {
@@ -33,6 +33,21 @@ const features = [
     description: "One featured listing slot per month to advertise and co-market within the TRN network.",
     badge: "Coming Soon",
   },
+  {
+    icon: Send,
+    title: "Done For You Outreach and Lead Generation",
+    description: "A system that puts you in front of people in your market who are in a position to make a property decision. We handle the outreach and the conversations come to you.",
+  },
+  {
+    icon: Briefcase,
+    title: "Licensed Wealth Management",
+    description: "Direct access to licensed wealth managers for you and your clients. Every referral you make earns you a commission.",
+  },
+  {
+    icon: Coins,
+    title: "Currency Exchange",
+    description: "Your clients buying internationally routinely lose money through standard bank transfers. TRN connects them to a preferred currency partner that closes that gap. Another referral, another commission for you.",
+  },
 ];
 
 const FeaturesSection = () => {
@@ -53,6 +68,11 @@ const FeaturesSection = () => {
           <p className="text-muted-foreground max-w-xl mx-auto text-base leading-relaxed">
             The tools and structure behind serious cross-border collaboration between members and qualified investors.
           </p>
+          <div className="mt-8 inline-block border border-primary/30 rounded-full px-5 py-2">
+            <p className="text-primary text-[10px] font-semibold tracking-[0.25em] uppercase">
+              Free consultation available for investors and HNW individuals. All services included.
+            </p>
+          </div>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
