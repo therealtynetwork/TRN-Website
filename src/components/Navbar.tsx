@@ -40,7 +40,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground text-[11px] font-semibold px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-[0.15em] uppercase"
           >
-            Apply
+            Book a Call
           </a>
         </div>
 
@@ -79,7 +79,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-3 rounded-lg text-center hover:opacity-90 transition-opacity tracking-wider uppercase mt-2"
               >
-                Apply
+                Book a Call
               </a>
             </div>
           </motion.div>

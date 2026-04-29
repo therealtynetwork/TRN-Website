@@ -57,7 +57,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
           >
-            Apply for Membership
+            Book a Call
           </a>
           <a
             href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"

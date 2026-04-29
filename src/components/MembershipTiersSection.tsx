@@ -67,7 +67,7 @@ const MembershipTiersSection = () => {
                     : "border border-primary/40 text-primary"
                 }`}
               >
-                Apply Now
+                Book a Call
               </a>
             </motion.div>
           ))}

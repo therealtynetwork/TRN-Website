@@ -23,7 +23,7 @@ const CTABanner = () => {
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity"
           >
-            Request Membership Review
+            Book a Call
           </a>
           <a
             href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
