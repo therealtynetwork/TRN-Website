@@ -27,6 +27,11 @@ const testimonials = [
     location: "Malta",
     quote: "I am not an agent. I was relocating from London to Malta and needed proper advice on tax, housing, everything. Jake took the time to connect me with the right people on the ground. Made the whole move stress free.",
   },
+  {
+    name: "Joseph",
+    location: "Agency Founder, TRN Member",
+    quote: "As a founder growing my agency, I needed two things at once. A way to attract serious recruits and a pipeline of genuine investor conversations. TRN delivered both through one system. The outreach runs in the background, the conversations come to me, and the network gives my team a global edge no local agency can offer.",
+  },
 ];
 
 const TestimonialsSection = () => {

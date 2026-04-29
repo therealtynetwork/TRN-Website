@@ -30,7 +30,7 @@ const WhoThisIsForSection = () => {
             TRN serves two audiences. The first is real estate agents and brokers who want more deals, global reach and additional income streams beyond the transaction.
           </p>
           <p>
-            The second is HNW individuals and global investors who can access a free consultation with any of our specialists, including wealth management, currency exchange, outreach support and relocation guidance. TRN is their one stop hub for any cross border property move.
+            The second is HNW individuals and global investors who can access a consultation with any of our specialists, including wealth management, currency exchange, outreach support and relocation guidance. TRN is their one stop hub for any cross border property move.
           </p>
           <p className="text-foreground font-medium">
             Introductions happen once you're in the right room.

@@ -42,7 +42,7 @@ const FounderMessageSection = () => {
           >
             <div className="space-y-5 text-neutral-600 text-base md:text-lg leading-[1.9] font-sans">
               <p className="text-neutral-800 font-serif text-xl md:text-2xl leading-[1.6] font-medium">
-                "When I started in real estate, the hardest part was never the work. It was the isolation. Great agents everywhere, grinding hard, but stuck inside one market with no real way to reach beyond it.
+                "When I started working in real estate, the hardest part was never the work. It was the isolation. Great agents everywhere, grinding hard, but stuck inside one market with no real way to reach beyond it.
               </p>
               <p>
                 So I set out to build something different. A network where one phone call, one introduction, one trusted connection could open a door that changes someone's entire year.
