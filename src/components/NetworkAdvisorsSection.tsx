@@ -67,6 +67,30 @@ const NetworkAdvisorsSection = () => {
           </div>
         </article>
 
+        {/* Done For You service card */}
+        <article className="relative bg-[#1A1A1A] rounded-2xl overflow-hidden border border-border/30 max-w-3xl mx-auto mt-8 md:mt-10">
+          <div className="absolute top-0 left-0 right-0 h-[2px] bg-primary" />
+          <div className="p-8 md:p-12 lg:p-16">
+            <p className="text-primary text-[10px] md:text-[11px] font-semibold tracking-[0.25em] uppercase mb-5">
+              Done For You Outreach and Lead Generation
+            </p>
+            <h3 className="font-serif font-bold text-3xl md:text-4xl lg:text-5xl text-foreground mb-8">
+              Pipeline, handled.
+            </h3>
+            <div className="space-y-4 text-muted-foreground text-[15px] md:text-base leading-relaxed font-light">
+              <p>
+                Each month we identify people in your market who have recently experienced a meaningful life change, a new role, a relocation, a shift in circumstances, the kind of change that almost always leads to a property decision. We put your name in front of them and run the outreach on your behalf.
+              </p>
+              <p>
+                You respond to the conversations that come back to you. The system runs in the background while you stay focused on closing. Structured around your zone, your criteria and your capacity.
+              </p>
+            </div>
+            <p className="mt-8 text-muted-foreground/70 text-sm italic font-light">
+              Available exclusively to TRN members.
+            </p>
+          </div>
+        </article>
+
         {/* Investor access block */}
         <article className="relative bg-[#1A1A1A] rounded-2xl overflow-hidden border border-border/30 max-w-2xl mx-auto mt-10 md:mt-12">
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-primary" />
