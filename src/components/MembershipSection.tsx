@@ -8,26 +8,26 @@ const packages = [
     name: "Entry",
     tagline: "Your Starting Point",
     description:
-      "A monthly lead list of 500 to 1000 people in your area who are in a position to move. You make the contact in your own time and your own way.",
+      "A monthly lead list of contacts in your area identified as more likely to be considering a property decision. You make the outreach in your own time and your own way.",
     features: [
-      "Monthly lead list, 500 to 1000 contacts",
-      "Targeted to your zone and criteria",
+      "Monthly lead list targeted to your zone",
+      "Filtered around your criteria",
       "Full TRN network access included",
       "Outreach run by you, on your terms",
     ],
-    cta: "Apply for Membership",
-    href: "https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m",
+    cta: "Book a Call",
+    href: "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2",
   },
   {
     icon: Rocket,
     name: "Growth",
     tagline: "Done For You",
     description:
-      "500 prospects per month contacted on your behalf. You respond to the conversations that come back to you.",
+      "Prospects in your market contacted on your behalf each month. You respond to the conversations that come back to you.",
     features: [
-      "500 prospects contacted monthly on your behalf",
-      "Done for you outreach with a dedicated expert",
-      "You handle only the inbound conversations",
+      "Outreach run on your behalf each month",
+      "Done for you campaigns with a dedicated expert",
+      "You handle the inbound conversations",
       "Full TRN network access included",
     ],
     cta: "Book a Call",
@@ -39,14 +39,14 @@ const packages = [
     name: "Scale",
     tagline: "Full Scale",
     description:
-      "Maximum volume outreach across your entire target market. Structured on a call. Built around your capacity, your zones, and your goals.",
+      "Higher volume outreach across your wider target market. Structured on a call and built around your capacity, your zones and your goals.",
     features: [
-      "Maximum volume outreach across your full market",
+      "Higher volume outreach across your wider market",
       "Multi channel campaigns built around your zones",
       "Strategy structured directly with the founder",
       "Full TRN network access included",
     ],
-    cta: "Register Interest",
+    cta: "Book a Call",
     href: "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2",
   },
 ];

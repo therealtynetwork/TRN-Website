@@ -58,7 +58,7 @@ const MembershipTiersSection = () => {
               </p>
 
               <a
-                href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+                href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-block w-full text-center font-semibold px-8 py-3.5 rounded-lg text-sm tracking-[0.1em] uppercase transition-opacity hover:opacity-90 ${
@@ -67,7 +67,7 @@ const MembershipTiersSection = () => {
                     : "border border-primary/40 text-primary"
                 }`}
               >
-                Apply Now
+                Book a Call
               </a>
             </motion.div>
           ))}

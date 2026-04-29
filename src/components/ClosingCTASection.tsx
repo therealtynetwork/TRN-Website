@@ -17,15 +17,15 @@ const ClosingCTASection = () => {
             <span className="text-primary"> The right time to join is now.</span>
           </h2>
           <p className="text-muted-foreground text-base md:text-lg mb-10 max-w-xl mx-auto leading-relaxed">
-            Apply for membership and find out how TRN can open doors in markets you have never reached before.
+            Book a call and find out how TRN can open doors in markets you have never reached before.
           </p>
           <a
-            href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+            href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-primary-foreground font-semibold px-12 py-4 rounded-lg text-sm tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
           >
-            Apply for Membership
+            Book a Call
           </a>
         </motion.div>
       </div>
