@@ -1,28 +1,60 @@
 
 import { motion } from "framer-motion";
-import { Check, Sparkles, Rocket, Crown } from "lucide-react";
+import { Check, Sparkles, Rocket, Crown, Users } from "lucide-react";
 
-const communityFeatures = [
-  "Member introductions across global markets",
-  "100 targeted leads, criteria identified in your 1-on-1 onboarding call with the founder",
-  "Monthly webinar co-hosted with a dedicated outreach expert",
-  "FX partner referral access",
-  "European tax and relocation expert access",
-  "Monthly property collaboration slot",
-  "1-on-1 onboarding call with the founder to build your personal outreach system",
-];
-
-const dfyLiteExtras = [
-  "Full done-for-you outreach service with a dedicated expert",
-  "Monthly 1-on-1 strategy call with the founder",
-  "Active deal sourcing and curated connections",
-  "Priority network access",
+const packages = [
+  {
+    icon: Sparkles,
+    name: "Entry",
+    tagline: "Your Starting Point",
+    description:
+      "A monthly lead list of 500 to 1000 people in your area who are in a position to move. You make the contact in your own time and your own way.",
+    features: [
+      "Monthly lead list, 500 to 1000 contacts",
+      "Targeted to your zone and criteria",
+      "Full TRN network access included",
+      "Outreach run by you, on your terms",
+    ],
+    cta: "Apply for Membership",
+    href: "https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m",
+  },
+  {
+    icon: Rocket,
+    name: "Growth",
+    tagline: "Done For You",
+    description:
+      "500 prospects per month contacted on your behalf. You respond to the conversations that come back to you.",
+    features: [
+      "500 prospects contacted monthly on your behalf",
+      "Done for you outreach with a dedicated expert",
+      "You handle only the inbound conversations",
+      "Full TRN network access included",
+    ],
+    cta: "Book a Call",
+    href: "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2",
+    featured: true,
+  },
+  {
+    icon: Crown,
+    name: "Scale",
+    tagline: "Full Scale",
+    description:
+      "Maximum volume outreach across your entire target market. Structured on a call. Built around your capacity, your zones, and your goals.",
+    features: [
+      "Maximum volume outreach across your full market",
+      "Multi channel campaigns built around your zones",
+      "Strategy structured directly with the founder",
+      "Full TRN network access included",
+    ],
+    cta: "Register Interest",
+    href: "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2",
+  },
 ];
 
 const MembershipSection = () => {
   return (
     <section id="membership" className="py-12 md:py-16 px-6">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -30,12 +62,12 @@ const MembershipSection = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-center mb-6"
         >
-          <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">Access</p>
+          <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">Packages</p>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            Membership
+            How We Work Together
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto text-base leading-relaxed">
-            Open to real estate professionals and investors worldwide. Whether you are established or just getting started, all we ask is commitment and integrity.
+            Every package includes full access to the TRN global network. Every lead you cannot service in your market is a referral opportunity. Every inbound from outside your zone is additional income. The pipeline runs in both directions.
           </p>
         </motion.div>
 
@@ -49,108 +81,79 @@ const MembershipSection = () => {
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-5">
-          {/* Community Tier */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="bg-card/50 backdrop-blur-sm border border-border/30 rounded-2xl p-8 md:p-10 flex flex-col"
-          >
-            <Sparkles className="w-7 h-7 text-primary mb-6" strokeWidth={1.2} />
-            <h3 className="font-serif text-xl md:text-2xl font-semibold text-foreground mb-2">
-              Community
-            </h3>
-            <p className="text-primary font-semibold text-sm mb-6">Application-Based Access</p>
-            <ul className="space-y-4 mb-10 flex-1">
-              {communityFeatures.map((item, j) => (
-                <li key={j} className="flex items-start gap-3 text-sm text-foreground">
-                  <Check className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                  <span className="leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-            <a
-              href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-4 rounded-xl hover:opacity-90 transition-opacity tracking-[0.1em] uppercase"
+          {packages.map((pkg, i) => (
+            <motion.div
+              key={pkg.name}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.08, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className={`bg-card/50 backdrop-blur-sm border ${pkg.featured ? "border-primary/30" : "border-border/30"} rounded-2xl p-8 md:p-10 flex flex-col relative`}
             >
-              Apply for Membership
-            </a>
-          </motion.div>
-
-          {/* DFY Lite Tier */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.08, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="bg-card/50 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 md:p-10 flex flex-col relative"
-          >
-            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-            <Rocket className="w-7 h-7 text-primary mb-6" strokeWidth={1.2} />
-            <h3 className="font-serif text-xl md:text-2xl font-semibold text-foreground mb-2">
-              DFY Lite
-            </h3>
-            <p className="text-primary font-semibold text-sm mb-4">Everything in Community, plus:</p>
-            <ul className="space-y-4 mb-6 flex-1">
-              {dfyLiteExtras.map((item, j) => (
-                <li key={j} className="flex items-start gap-3 text-sm text-foreground">
-                  <Check className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                  <span className="leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-            <div className="bg-secondary/50 border border-border/30 rounded-xl p-5 mb-8">
-              <p className="text-[10px] font-semibold tracking-[0.2em] uppercase text-primary mb-3">Your Dedicated Outreach Expert</p>
-              <p className="text-muted-foreground text-xs leading-[1.8]">
-                DFY Lite members get direct access to a dedicated outreach specialist, the same expert behind TRN's own growth. This includes a personalised LinkedIn strategy, DM campaign design across LinkedIn and WhatsApp, and regular strategy reviews, all built specifically for real estate professionals.
-              </p>
-              <p className="text-muted-foreground/70 text-xs leading-[1.8] mt-3 italic">
-                This is not a generic VA. It is a real estate-specific outreach strategy built around your goals, your markets, and your voice.
-              </p>
-            </div>
-            <a
-              href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-center bg-primary text-primary-foreground font-semibold text-sm py-4 rounded-xl hover:opacity-90 transition-opacity tracking-[0.1em] uppercase"
-            >
-              Book a Call
-            </a>
-          </motion.div>
-
-          {/* DFY Premium Tier */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.16, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="bg-card/50 backdrop-blur-sm border border-border/20 rounded-2xl p-8 md:p-10 flex flex-col relative"
-          >
-            <Crown className="w-7 h-7 text-muted-foreground/40 mb-6" strokeWidth={1.2} />
-            <div className="flex items-center gap-3 mb-2">
-              <h3 className="font-serif text-xl md:text-2xl font-semibold text-foreground">
-                DFY Premium
+              {pkg.featured && (
+                <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+              )}
+              <pkg.icon className="w-7 h-7 text-primary mb-6" strokeWidth={1.2} />
+              <h3 className="font-serif text-xl md:text-2xl font-semibold text-foreground mb-2">
+                {pkg.name}
               </h3>
-              <span className="text-[9px] font-semibold tracking-[0.15em] uppercase text-primary border border-primary/30 rounded-full px-2.5 py-0.5">
-                Coming Soon
-              </span>
-            </div>
-            <p className="text-muted-foreground text-sm leading-[1.8] mb-8 flex-1">
-              Full-service global expansion. Hands-on. Done entirely for you.
+              <p className="text-primary font-semibold text-sm mb-5">{pkg.tagline}</p>
+              <p className="text-muted-foreground text-sm leading-[1.8] mb-6">
+                {pkg.description}
+              </p>
+              <ul className="space-y-4 mb-10 flex-1">
+                {pkg.features.map((item, j) => (
+                  <li key={j} className="flex items-start gap-3 text-sm text-foreground">
+                    <Check className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                    <span className="leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={pkg.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`block text-center font-semibold text-sm py-4 rounded-xl tracking-[0.1em] uppercase transition-opacity ${pkg.featured ? "bg-primary text-primary-foreground hover:opacity-90" : "border border-border/50 text-foreground hover:bg-secondary/50"}`}
+              >
+                {pkg.cta}
+              </a>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Network Membership */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="mt-16 md:mt-20 bg-card/40 backdrop-blur-sm border border-border/30 rounded-2xl p-10 md:p-14 relative overflow-hidden"
+        >
+          <div className="absolute top-0 left-0 right-0 h-[2px] bg-primary" />
+          <div className="max-w-3xl mx-auto text-center">
+            <Users className="w-7 h-7 text-primary mx-auto mb-6" strokeWidth={1.2} />
+            <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-5">
+              Network Membership
+            </p>
+            <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground mb-6">
+              Done with leads. Want to stay inside TRN.
+            </h3>
+            <p className="text-muted-foreground text-base leading-[1.9] mb-8">
+              After your first month, if you have the leads you need and do not want to continue the monthly list, you do not have to leave. The network stays open to you. Ongoing access to the global referral network, the full client service suite, and every deal opportunity that moves through the network. No leads delivered. No outreach. Just the room and everything in it.
+            </p>
+            <p className="text-primary text-[11px] font-semibold tracking-[0.25em] uppercase mb-8">
+              Founding member access available to the first 50 members only
             </p>
             <a
               href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
               target="_blank"
               rel="noopener noreferrer"
-              className="block text-center border border-border/50 text-foreground font-semibold text-sm py-4 rounded-xl hover:bg-secondary/50 transition-colors tracking-[0.1em] uppercase"
+              className="inline-block border border-primary text-primary font-semibold text-sm py-4 px-10 rounded-xl tracking-[0.1em] uppercase hover:bg-primary hover:text-primary-foreground transition-colors"
             >
-              Register Interest
+              Enquire About Network Access
             </a>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
