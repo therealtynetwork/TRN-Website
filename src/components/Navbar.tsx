@@ -35,7 +35,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+            href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground text-[11px] font-semibold px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-[0.15em] uppercase"
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://api.leadconnectorhq.com/widget/form/MVHwB9FzUKRmU4crVP2m"
+                href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
