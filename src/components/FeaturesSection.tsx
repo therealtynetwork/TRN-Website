@@ -70,7 +70,7 @@ const FeaturesSection = () => {
           </p>
           <div className="mt-8 inline-block border border-primary/30 rounded-full px-5 py-2">
             <p className="text-primary text-[10px] font-semibold tracking-[0.25em] uppercase">
-              Consultation available for investors and HNW individuals. All services included.
+              Consultation available for investors and private clients. Specialist services available on request.
             </p>
           </div>
         </motion.div>
