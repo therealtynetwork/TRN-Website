@@ -33,7 +33,7 @@ const FooterSection = () => {
       </div>
       <div className="text-center space-y-3 mb-12">
         <p className="font-serif text-2xl md:text-3xl text-foreground">THE REALTY NETWORK</p>
-        <p className="text-primary text-[10px] tracking-[0.4em] uppercase">Global. Connected. Built to Last.</p>
+        <p className="text-primary text-[10px] tracking-[0.4em] uppercase">Real Estate Is Global. Your Network Should Be Too.</p>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-sm text-muted-foreground mb-10">
         <a href="https://therealty-network.com" className="hover:text-primary transition-colors">therealty-network.com</a>
