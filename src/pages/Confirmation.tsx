@@ -37,13 +37,13 @@ const Confirmation = () => {
           Thank you for applying. Let's get a call booked so we can get to know each other.
         </p>
         <p className="text-primary text-sm font-medium mb-8">
-          Redirecting to book your call in {countdown} second{countdown !== 1 ? "s" : ""}...
+          You'll be redirected to book your call in {countdown} second{countdown !== 1 ? "s" : ""}, or click below to book now.
         </p>
         <a
           href={BOOKING_URL}
           className="inline-block w-full bg-primary text-primary-foreground font-semibold py-3.5 rounded-lg hover:opacity-90 transition-opacity text-sm tracking-[0.1em] uppercase"
         >
-          Book Now
+          Book A Call
         </a>
       </motion.div>
     </main>
