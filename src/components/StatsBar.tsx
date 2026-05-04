@@ -4,7 +4,6 @@ const stats = [
   { value: "13", label: "Members" },
   { value: "10", label: "Countries" },
   { value: "3", label: "Pillars" },
-  { value: "4", label: "Documented Wins" },
   { value: "1", label: "Network" },
 ];
 
