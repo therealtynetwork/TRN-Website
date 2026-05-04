@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/trn-hero.jpeg";
-
-const BOOK = "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2";
 
 const HeroSection = () => (
   <header id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -25,10 +24,10 @@ const HeroSection = () => (
       <motion.div
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9, duration: 0.7 }}
       >
-        <a href={BOOK} target="_blank" rel="noopener noreferrer"
+        <Link to="/apply"
           className="inline-block bg-primary text-primary-foreground font-semibold px-14 py-4 rounded-lg text-xs tracking-[0.25em] uppercase hover:opacity-90 transition-opacity">
           Apply Now
-        </a>
+        </Link>
       </motion.div>
     </div>
   </header>

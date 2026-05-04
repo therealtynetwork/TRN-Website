@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
-
-const BOOK = "https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2";
 
 const tiers = [
   {
@@ -58,10 +57,10 @@ const MembershipSection = () => (
                 </li>
               ))}
             </ul>
-            <a href={BOOK} target="_blank" rel="noopener noreferrer"
+            <Link to="/apply"
               className={`block text-center font-semibold py-4 rounded-lg text-xs tracking-[0.25em] uppercase transition-opacity ${t.featured ? "bg-primary text-primary-foreground hover:opacity-90" : "border border-primary/50 text-primary hover:bg-primary/10"}`}>
               Apply Now
-            </a>
+            </Link>
           </motion.div>
         ))}
       </div>
