@@ -1,4 +1,5 @@
-import { Instagram } from "lucide-react";
+import { Instagram, X } from "lucide-react";
+import { useState } from "react";
 import img1 from "@/assets/trn-1.jpeg";
 import img2 from "@/assets/trn-6.jpeg";
 import img3 from "@/assets/trn-dinner.jpeg";
@@ -8,17 +9,19 @@ import img6 from "@/assets/trn-run.jpeg";
 import img7 from "@/assets/trn-speaker.jpeg";
 
 const highlights = [img1, img2, img3, img4, img5, img6, img7];
-const IG = "https://www.instagram.com/therealty.network/";
+const IG = "https://www.instagram.com/therealtynetwork_/";
 
-const FooterSection = () => (
+const FooterSection = () => {
+  const [active, setActive] = useState<string | null>(null);
+  return (
   <footer className="bg-background border-t border-border/30 pt-20 pb-12 px-6">
     <div className="max-w-6xl mx-auto">
       <div className="flex gap-4 md:gap-6 overflow-x-auto pb-2 mb-14 justify-center scrollbar-none">
         {highlights.map((img, i) => (
-          <a key={i} href={IG} target="_blank" rel="noopener noreferrer"
+          <button key={i} type="button" onClick={() => setActive(img)}
             className="shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-2 border-primary/40 hover:border-primary transition-colors p-[2px]">
             <img src={img} alt={`TRN moment ${i + 1}`} className="w-full h-full object-cover rounded-full" />
-          </a>
+          </button>
         ))}
       </div>
       <div className="text-center mb-12">
@@ -43,7 +46,18 @@ const FooterSection = () => (
         </p>
       </div>
     </div>
+    {active && (
+      <div onClick={() => setActive(null)}
+        className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex items-center justify-center p-6 cursor-zoom-out">
+        <button type="button" onClick={() => setActive(null)}
+          className="absolute top-6 right-6 text-foreground/80 hover:text-primary transition-colors">
+          <X className="w-8 h-8" />
+        </button>
+        <img src={active} alt="TRN moment" className="max-w-full max-h-full object-contain rounded-lg" />
+      </div>
+    )}
   </footer>
-);
+  );
+};
 
 export default FooterSection;
