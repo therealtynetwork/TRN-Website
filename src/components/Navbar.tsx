@@ -33,14 +33,12 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a
-            href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/apply"
             className="bg-primary text-primary-foreground text-[11px] font-semibold px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-[0.15em] uppercase"
           >
             Apply Now
-          </a>
+          </Link>
         </div>
 
         <button
@@ -71,15 +69,13 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="https://api.leadconnectorhq.com/widget/booking/1O3neHl4OnGyiA9E1mj2"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/apply"
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-3 rounded-lg text-center hover:opacity-90 transition-opacity tracking-wider uppercase mt-2"
               >
                 Apply Now
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}
