@@ -1,41 +1,31 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import WhatIsTRNSection from "@/components/WhatIsTRNSection";
-import WhoThisIsForSection from "@/components/WhoThisIsForSection";
-import WhatYouGetSection from "@/components/WhatYouGetSection";
-
+import StatsBar from "@/components/StatsBar";
+import WhatMembershipUnlocks from "@/components/WhatMembershipUnlocks";
+import InsideTRN from "@/components/InsideTRN";
+import FounderSection from "@/components/FounderSection";
+import MemberWins from "@/components/MemberWins";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import MembershipSection from "@/components/MembershipSection";
-import InvestorAccessSection from "@/components/InvestorAccessSection";
-import FounderMessageSection from "@/components/FounderMessageSection";
-import FounderVideoSection from "@/components/FounderVideoSection";
-import NetworkAdvisorsSection from "@/components/NetworkAdvisorsSection";
-
-import ClosingCTASection from "@/components/ClosingCTASection";
+import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
 import NewsletterPopup from "@/components/NewsletterPopup";
 
-const Index = () => {
-  return (
-    <main className="bg-background min-h-screen">
-      <NewsletterPopup />
-      <Navbar />
-      <HeroSection />
-      <FounderVideoSection />
-      <WhatIsTRNSection />
-      <WhoThisIsForSection />
-      <WhatYouGetSection />
-      
-      <TestimonialsSection />
-      <MembershipSection />
-      <NetworkAdvisorsSection />
-      <InvestorAccessSection />
-      <FounderMessageSection />
-      
-      <ClosingCTASection />
-      <FooterSection />
-    </main>
-  );
-};
+const Index = () => (
+  <main className="bg-background min-h-screen">
+    <NewsletterPopup />
+    <Navbar />
+    <HeroSection />
+    <StatsBar />
+    <WhatMembershipUnlocks />
+    <InsideTRN />
+    <FounderSection />
+    <MemberWins />
+    <TestimonialsSection />
+    <MembershipSection />
+    <FAQSection />
+    <FooterSection />
+  </main>
+);
 
 export default Index;

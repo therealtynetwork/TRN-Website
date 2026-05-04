@@ -5,12 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/logo.png";
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Benefits", href: "#benefits" },
+  { label: "Inside TRN", href: "#inside-trn" },
+  { label: "Wins", href: "#wins" },
   { label: "Reviews", href: "#testimonials" },
   { label: "Membership", href: "#membership" },
-  { label: "Advisors", href: "#network-advisors" },
-  { label: "Investors", href: "#investor-access" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 const Navbar = () => {
@@ -40,7 +39,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground text-[11px] font-semibold px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity tracking-[0.15em] uppercase"
           >
-            Book a Call
+            Apply Now
           </a>
         </div>
 
@@ -79,7 +78,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 className="bg-primary text-primary-foreground text-sm font-semibold px-5 py-3 rounded-lg text-center hover:opacity-90 transition-opacity tracking-wider uppercase mt-2"
               >
-                Book a Call
+                Apply Now
               </a>
             </div>
           </motion.div>
