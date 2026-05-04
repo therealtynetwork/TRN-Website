@@ -1,70 +1,39 @@
 import { motion } from "framer-motion";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  {
-    q: "How is TRN different from a referral group or directory?",
-    a: "TRN is a structured operating network, not a social group or passive directory. Referrals are tracked, and all operators have equal access to opportunities. This is institutional infrastructure, not networking.",
-  },
-  {
-    q: "How do referrals work?",
-    a: "When a client is buying or selling in a market you don't serve, you can connect directly with any member in that territory or, if you're unsure, we can allocate the ideal person for you. From there, the introduction is facilitated and the transaction is tracked to completion.",
-  },
-  {
-    q: "Who is this for?",
-    a: "Established real estate operators with proven market presence and active deal flow. If you're serious about cross-border business, trusted infrastructure, and long-term positioning, TRN is built for you.",
-  },
-  {
-    q: "Does TRN take a commission?",
-    a: "No. Referral agreements are between operators. TRN provides the infrastructure and trust layer, not a commission structure.",
-  },
-  {
-    q: "Can I take on a leadership role?",
-    a: "Leadership positions are available for members who demonstrate consistent contribution and professional excellence. Designated leaders support onboarding and help maintain network standards. Indicate your interest in your application.",
-  },
+  { q: "What is TRN?", a: "TRN is a private global network for real estate professionals. Members access a vetted room of agents across 13 countries, a full client service suite covering wealth, tax, visa and relocation, and ongoing deal flow that runs beyond their local market." },
+  { q: "How does the lead generation work?", a: "On the Done For You tier we run targeted LinkedIn outreach in your specific market each month. Conversations come back to you. You handle them. Volume and quality benchmarks are built into the package." },
+  { q: "Who is this for?", a: "Real estate professionals who are serious about growing beyond their local zone. Agents, agency founders, brokers and operators who want a global referral network and a structured growth system around it." },
+  { q: "What happens after I join?", a: "You are personally onboarded by the founder, plugged into the network, introduced to relevant advisors and members, and your outreach or referral flow starts the same month." },
+  { q: "How do I apply?", a: "Click Apply Now anywhere on this page, book a call, and we will walk you through fit and tier on the call." },
 ];
 
-const FAQSection = () => {
-  return (
-    <section id="faq" className="py-12 md:py-16 px-6 md:px-12 bg-secondary/20">
-      <div className="max-w-3xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="text-center mb-20"
-        >
-          <p className="text-primary text-[10px] font-semibold tracking-[0.35em] uppercase mb-6">Questions</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground">
-            Frequently Asked Questions
-          </h2>
-        </motion.div>
-
-        <Accordion type="single" collapsible className="space-y-3">
-          {faqs.map((faq, i) => (
-            <AccordionItem
-              key={i}
-              value={`faq-${i}`}
-              className="bg-card/30 backdrop-blur-sm rounded-xl px-7 border border-border/30"
-            >
-              <AccordionTrigger className="text-foreground text-left font-sans font-medium text-sm md:text-base hover:no-underline py-6">
-                {faq.q}
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-sm leading-[1.8] pb-6">
-                {faq.a}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
-      </div>
-    </section>
-  );
-};
+const FAQSection = () => (
+  <section id="faq" className="bg-background py-28 px-6 border-t border-border/30">
+    <div className="max-w-3xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="text-center mb-14"
+      >
+        <p className="text-[10px] tracking-[0.4em] uppercase text-primary mb-6">FAQ</p>
+        <h2 className="font-serif text-4xl md:text-5xl font-semibold">Frequently Asked Questions</h2>
+      </motion.div>
+      <Accordion type="single" collapsible className="w-full">
+        {faqs.map((f, i) => (
+          <AccordionItem key={i} value={`item-${i}`} className="border-border/30">
+            <AccordionTrigger className="text-left font-serif text-base md:text-lg text-foreground hover:text-primary py-6">
+              {f.q}
+            </AccordionTrigger>
+            <AccordionContent className="text-muted-foreground text-sm leading-[1.85] pb-6">
+              {f.a}
+            </AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    </div>
+  </section>
+);
 
 export default FAQSection;
