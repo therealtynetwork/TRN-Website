@@ -5,12 +5,12 @@ const testimonials = [
   {
     quote: "As a founder growing my agency, I needed a way to attract serious recruits and a pipeline of genuine investor conversations. TRN delivered both through one system. The outreach runs in the background, the conversations come to me, and the network gives my team a global edge no local agency can offer.",
     name: "Joseph",
-    role: "Agency Founder, TRN Member",
+    role: "Agency Owner, TRN Member",
   },
   {
     quote: "Working with The Realty Network has been a genuinely good experience. I have been able to connect with international clients I would not have reached on my own, and I have even been using it to find the right people on LinkedIn for hiring which has worked really well. If you are in real estate and serious about growing beyond your local market, worth looking into.",
-    name: "TRN Member",
-    role: "",
+    name: "Stefano",
+    role: "Agency Owner, TRN Member",
   },
 ];
 

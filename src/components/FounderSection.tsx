@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import founderImg from "@/assets/trn-discuss.jpeg";
+import founderImg from "@/assets/jake-founder.jpg";
 
 const FounderSection = () => (
   <section className="bg-[hsl(40,20%,96%)] text-[hsl(0,0%,8%)] py-28 px-6">

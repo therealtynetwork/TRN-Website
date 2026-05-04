@@ -13,7 +13,7 @@ const tiers = [
       "Wealth management connections",
       "Currency exchange partner",
       "Visa and tax specialists",
-      "Direct access to Jake Engerer",
+      "Direct access to Jake",
     ],
     featured: false,
   },

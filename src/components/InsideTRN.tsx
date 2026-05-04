@@ -8,7 +8,7 @@ const tiles = [
   { img: img1, title: "Extra Deal Flow", desc: "LinkedIn lead generation targeting people in your market who have recently moved, changed jobs or had a life event. Qualified conversations arriving to you every month." },
   { img: img2, title: "Global Network", desc: "Vetted real estate professionals across 13 countries. Send clients to Dubai, London, Miami, Malta, Greece and Cape Town. Receive inbound referrals in return." },
   { img: img3, title: "A to Z Client Service", desc: "Wealth management, currency exchange, visa and tax specialists, relocation support. You become the agent your clients call for everything." },
-  { img: img4, title: "High Level Advisory", desc: "Direct access to Jake Engerer and a growing network of advisors. Real guidance, real connections, real accountability." },
+  { img: img4, title: "High Level Advisory", desc: "Direct access to Jake and a growing network of advisors. Real guidance, real connections, real accountability." },
 ];
 
 const InsideTRN = () => (
