@@ -25,7 +25,7 @@ const FooterSection = () => {
         ))}
       </div>
       <div className="text-center mb-12">
-        <a href={IG} target="_blank" rel="noopener noreferrer"
+        <a href={IG} rel="noopener noreferrer"
           className="inline-flex items-center gap-3 border border-primary/40 text-primary px-8 py-3.5 rounded-lg text-xs font-semibold tracking-[0.25em] uppercase hover:bg-primary/10 transition-colors">
           <Instagram className="w-4 h-4" />
           Follow on Instagram
