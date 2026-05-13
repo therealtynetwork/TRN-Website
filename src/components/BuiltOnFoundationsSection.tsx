@@ -18,7 +18,7 @@ const BuiltOnFoundationsSection = () => {
             Built on Proven Foundations
           </h2>
           <p className="text-muted-foreground text-base md:text-lg leading-[1.9] max-w-2xl mx-auto">
-            TRN did not start from zero with no direction. Jake Engerer built this with the direct mentorship of James Galigan, founder of A Players Club, the number one networking community for young entrepreneurs in Europe. Everything that works inside world-class communities has been studied and applied specifically to real estate. The model is proven. TRN is being built the right way from the start.
+            TRN did not start from zero with no direction. Jake Engerer built this with the direct mentorship of James Galigan, founder of A Players Club, the leading network for young entrepreneurs in Europe. Everything that works inside world-class networks has been studied and applied specifically to real estate. The model is proven. TRN is being built the right way from the start.
           </p>
         </motion.div>
       </div>

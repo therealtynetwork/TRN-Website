@@ -10,7 +10,7 @@ const features = [
   {
     icon: Target,
     title: "100 Targeted Leads",
-    description: "In your onboarding call we identify your target market. We then deliver 100 leads matching your exact criteria.",
+    description: "In your onboarding call, we identify your target market. We then deliver 100 leads matching your exact criteria.",
   },
   {
     icon: Mic,
@@ -24,7 +24,7 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "European Tax & Relocation Expert",
+    title: "European Tax and Relocation Expert",
     description: "Direct access to a specialist for clients exploring European tax residency or relocation options.",
   },
   {

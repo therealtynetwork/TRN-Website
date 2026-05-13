@@ -8,7 +8,7 @@ const advantages = [
     badge: "Founding Phase Pricing",
     title: "Founding Phase Access",
     description:
-      "As the community grows and infrastructure strengthens, membership pricing will increase accordingly. Founding members secure long-term access at the earliest rate.",
+      "As the network grows and infrastructure strengthens, membership pricing will increase accordingly. Founding members secure long-term access at the earliest rate.",
   },
   {
     icon: Users,
