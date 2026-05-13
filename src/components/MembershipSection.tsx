@@ -46,10 +46,10 @@ const MembershipSection = () => (
           <motion.div key={i}
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.7 }}
-            className={`rounded-xl p-10 border ${t.featured ? "bg-card/70 border-primary/40" : "bg-card/40 border-border/30"}`}
+            className={`rounded-xl p-10 border flex flex-col ${t.featured ? "bg-card/70 border-primary/40" : "bg-card/40 border-border/30"}`}
           >
             <h3 className="font-serif text-2xl md:text-3xl text-foreground mb-8">{t.name}</h3>
-            <ul className="space-y-4 mb-10">
+            <ul className="space-y-4 mb-10 flex-1">
               {t.features.map((f, j) => (
                 <li key={j} className="flex items-start gap-3 text-sm text-foreground/90">
                   <Check className="w-4 h-4 text-primary shrink-0 mt-1" />
