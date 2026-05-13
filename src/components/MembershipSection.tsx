@@ -23,7 +23,7 @@ const tiers = [
       "LinkedIn outreach handled by a specialist",
       "500 targeted contacts per month in your market",
       "Minimum 30 percent connection rate",
-      "Minimum 20 percent reply rate",
+      "Minimum 10 percent reply rate",
       "Minimum 30 qualified conversations per month",
     ],
     featured: true,
