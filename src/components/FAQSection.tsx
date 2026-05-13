@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "What is TRN?", a: "TRN is a private global network for real estate professionals. Members access a vetted room of agents across 13 countries, a full client service suite covering wealth, tax, visa and relocation, and ongoing deal flow that runs beyond their local market." },
+  { q: "What is TRN?", a: "TRN is a private global network for real estate professionals. Members access a vetted room of agents across 10+ countries, a full client service suite covering wealth, tax, visa and relocation, and ongoing deal flow that runs beyond their local market." },
   { q: "How does the lead generation work?", a: "On the Done For You tier, we run targeted LinkedIn outreach in your specific market each month. Conversations come back to you. You handle them. Volume and quality benchmarks are built into the package." },
   { q: "Who is this for?", a: "Real estate professionals who are serious about growing beyond their local zone. Agents, agency founders, brokers and operators who want a global referral network and a structured growth system around it." },
   { q: "What happens after I join?", a: "You are personally onboarded by the founder, plugged into the network, introduced to relevant advisors and members, and set up with outreach or referral flow starting the same month." },
