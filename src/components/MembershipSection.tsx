@@ -24,7 +24,7 @@ const tiers = [
       "500 targeted contacts per month in your market",
       "Minimum 30 percent connection rate",
       "Minimum 10 percent reply rate",
-      "Minimum 30 qualified conversations per month",
+      "Minimum 15 conversations per month",
     ],
     featured: true,
   },
