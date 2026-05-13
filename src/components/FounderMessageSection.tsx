@@ -48,7 +48,7 @@ const FounderMessageSection = () => {
                 So I set out to build something different. A network where one phone call, one introduction, one trusted connection could open a door that changes someone's entire year.
               </p>
               <p>
-                The longer I have been in this industry, the more clear it has become. The agents who win are not always the best at selling. They are the best connected. The ones with the right person in the right market at the right time.
+                The longer I have been in this industry, the clearer it has become. The agents who win are not always the best at selling. They are the best connected. The ones with the right person in the right market at the right time.
               </p>
               <p>
                 That is what TRN exists to create. Not a platform. Not a directory. A real network of professionals who back each other, refer to each other, and grow together across borders.

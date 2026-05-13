@@ -24,7 +24,7 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "European Tax & Relocation Expert",
+    title: "European Tax and Relocation Expert",
     description: "Direct access to a specialist for clients exploring European tax residency or relocation options.",
   },
   {

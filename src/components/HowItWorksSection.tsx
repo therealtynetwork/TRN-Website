@@ -9,12 +9,12 @@ const steps = [
   {
     number: "02",
     title: "Market Alignment",
-    description: "Accepted operators are aligned to their market. All members share equal access to opportunities.",
+    description: "Accepted operators are aligned with their market. All members share equal access to opportunities.",
   },
   {
     number: "03",
     title: "Structured Introductions",
-    description: "When cross-border opportunity arises, the network facilitates warm, tracked introductions between operators.",
+    description: "When a cross-border opportunity arises, the network facilitates warm, tracked introductions between operators.",
   },
 ];
 
