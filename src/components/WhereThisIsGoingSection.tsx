@@ -31,7 +31,7 @@ const WhereThisIsGoingSection = () => {
               Short Term
             </h3>
             <p className="text-muted-foreground text-sm leading-[1.9]">
-              100 members across multiple countries with a steady and growing income from the business. A lead generation system that delivers real targeted value to every member in their specific zone. A premium online community that operates like a proper business not a hobby project.
+              100 members across multiple countries with a steady and growing income from the business. A lead generation system that delivers real targeted value to every member in their specific zone. A premium online network that operates like a proper business not a hobby project.
             </p>
           </motion.div>
 
