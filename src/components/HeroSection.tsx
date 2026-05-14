@@ -19,7 +19,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4, duration: 1, ease: [0.16, 1, 0.3, 1] }}
         className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.15] tracking-tight text-foreground mb-12 max-w-3xl mx-auto"
       >
-        The Private Infrastructure for International Real Estate Operators.
+        The Private Infrastructure for Real Estate Operators.
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9, duration: 0.7 }}

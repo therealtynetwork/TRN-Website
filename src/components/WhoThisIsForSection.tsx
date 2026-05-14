@@ -30,7 +30,7 @@ const WhoThisIsForSection = () => {
             TRN serves two audiences. The first is real estate agents and brokers who want more deals, global reach and additional income streams beyond the transaction.
           </p>
           <p>
-            The second is investors and private clients at any level. Anyone exploring a property move, a cross-border purchase or an international relocation. TRN is the one stop hub for the entire journey, with specialist services available for those who need them, including wealth management, currency exchange, outreach support, visa and tax guidance and full relocation support.
+            The second is investors and private clients at any level. Anyone exploring a property move, a cross-border purchase or a relocation. TRN is the one stop hub for the entire journey, with specialist services available for those who need them, including wealth management, currency exchange, outreach support, visa and tax guidance and full relocation support.
           </p>
           <p className="text-foreground font-medium">
             Introductions happen once you're in the right room.

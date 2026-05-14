@@ -46,7 +46,7 @@ const features = [
   {
     icon: Coins,
     title: "Currency Exchange",
-    description: "Your clients buying internationally routinely lose money through standard bank transfers. TRN connects them to a preferred currency partner that closes that gap. Another referral, another commission for you.",
+    description: "Your clients buying property abroad routinely lose money through standard bank transfers. TRN connects them to a preferred currency partner that closes that gap. Another referral, another commission for you.",
   },
 ];
 

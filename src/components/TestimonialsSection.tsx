@@ -8,7 +8,7 @@ const testimonials = [
     role: "Agency Owner, TRN Member",
   },
   {
-    quote: "Working with The Realty Network has been a genuinely good experience. I have been able to connect with international clients I would not have reached on my own, and I have even been using it to find the right people on LinkedIn for hiring which has worked really well. If you are in real estate and serious about growing beyond your local market, worth looking into.",
+    quote: "Working with The Realty Network has been a genuinely good experience. I have been able to connect with clients I would not have reached on my own, and I have even been using it to find the right people on LinkedIn for hiring which has worked really well. If you are in real estate and serious about growing beyond your local market, worth looking into.",
     name: "Stefano",
     role: "Agency Owner, TRN Member",
   },
